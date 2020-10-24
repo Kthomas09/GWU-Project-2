@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: oblique;
+    font-size: 75px;
+}
+#seal {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+

@@ -5,6 +5,15 @@ h1 {
     font-size: oblique;
     font-size: 75px;
 }
+nav {    
+    color: black;     
+    margin-right: 30px;     
+    padding: inherit;     
+    font-weight: bold;     
+    background-color: black;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+};
+
 #seal {
     width: 40px;
     height: 40px;

@@ -7,7 +7,7 @@
 # - adding column for party ie: democrat, republican etc
 # - adding column for state
 
-# In[1]:
+# In[24]:
 
 
 # Dependencies
@@ -25,7 +25,7 @@ from IPython.core.display import HTML
 from datetime import date, datetime
 
 
-# In[2]:
+# In[25]:
 
 
 contributions_2016 = pd.read_csv('campaign_contribution_2016.csv')
@@ -33,25 +33,25 @@ contributions_2018 = pd.read_csv('campaign_contribution_2018.csv')
 stateName = pd.read_csv('stateAbbrv.csv')
 
 
-# In[3]:
+# In[26]:
 
 
 contributions_2016 =  contributions_2016.drop(contributions_2016.index[52])
 
 
-# In[4]:
+# In[27]:
 
 
-contributions_2016.tail(51)
+contributions_2016['Representative'][2] = "ConnellMitch McConnell (R-Ky)"
 
 
-# In[5]:
+# In[28]:
 
 
 len(contributions_2016)
 
 
-# In[6]:
+# In[29]:
 
 
 stripList = contributions_2016['Representative']
@@ -60,25 +60,25 @@ for i in stripList:
     namesNoAstrick.append(i[:-1])
 
 
-# In[7]:
+# In[30]:
 
 
 len(namesNoAstrick)
 
 
-# In[8]:
+# In[31]:
 
 
 namesNoAstrick[0]
 
 
-# In[9]:
+# In[32]:
 
 
 namesNoAstrick[-4] = 'SandersBernie Sanders (D-VT)'
 
 
-# In[10]:
+# In[33]:
 
 
 # counter =0
@@ -89,13 +89,13 @@ namesNoAstrick[-4] = 'SandersBernie Sanders (D-VT)'
 #         counter += 1
 
 
-# In[11]:
+# In[34]:
 
 
 namesNoAstrick[51]
 
 
-# In[12]:
+# In[35]:
 
 
 def stripNames(stripList):
@@ -116,19 +116,19 @@ def stripNames(stripList):
     return fullName, state, party
 
 
-# In[13]:
+# In[36]:
 
 
 listName = stripNames(namesNoAstrick)
 
 
-# In[14]:
+# In[37]:
 
 
 len(listName[0])
 
 
-# In[15]:
+# In[38]:
 
 
 def cleanName(string):
@@ -141,22 +141,22 @@ def cleanName(string):
             i+= 1
 
 
-# In[16]:
+# In[39]:
 
 
 #listName[1]
 
 
-# In[17]:
+# In[40]:
 
 
 cleanedName = []
 for i in listName[0]:
     cleanedName.append(cleanName(i))
-#cleanedName
+cleanedName
 
 
-# In[18]:
+# In[41]:
 
 
 party = []
@@ -169,14 +169,14 @@ for i in listName[2]:
         party.append('I')
 
 
-# In[19]:
+# In[42]:
 
 
 matchList = listName[1]
 #matchList
 
 
-# In[20]:
+# In[43]:
 
 
 AP = []
@@ -187,13 +187,13 @@ for i in stateName['Abbrev']:
         AP.append(i)
 
 
-# In[21]:
+# In[44]:
 
 
 stateName['AP'] = AP
 
 
-# In[22]:
+# In[45]:
 
 
 abbrev = stateName['AP']
@@ -207,26 +207,26 @@ for i in fullState:
 stateDict = dict(zip(shortAbbrev, fullStateLower))
 
 
-# In[23]:
+# In[46]:
 
 
 otherDict = dict(zip(AP, fullStateLower))
 stateName['lower'] = fullStateLower
 
 
-# In[24]:
+# In[47]:
 
 
 len(matchList)#[95:]
 
 
-# In[25]:
+# In[48]:
 
 
 #stateDict
 
 
-# In[26]:
+# In[49]:
 
 
 #Matches the strings that have AP style abbreviation with full statenames
@@ -236,7 +236,7 @@ def getMatch(string):
             return value
 
 
-# In[27]:
+# In[50]:
 
 
 #Calling getMatch with matchList input from csv
@@ -264,7 +264,7 @@ for i in matchList:
 #holder
 
 
-# In[28]:
+# In[51]:
 
 
 #Matches the full state names to abbreviations
@@ -274,7 +274,7 @@ def getMatch2(string):
             return key
 
 
-# In[29]:
+# In[52]:
 
 
 #Calling getMatch2 with holder from getMatch
@@ -286,13 +286,13 @@ for i in holder:
         renamedState.append(getMatch2(i))
 
 
-# In[30]:
+# In[53]:
 
 
 len(renamedState)
 
 
-# In[31]:
+# In[54]:
 
 
 Total_Raised = []
@@ -300,13 +300,13 @@ for i in contributions_2016['Total Raised']:
     Total_Raised.append(int(i[1:]))
 
 
-# In[32]:
+# In[55]:
 
 
 len(Total_Raised)
 
 
-# In[33]:
+# In[56]:
 
 
 contributions_2016['Total_Raised'] = Total_Raised
@@ -315,31 +315,31 @@ contributions_2016['Party'] = party
 contributions_2016['Name'] = cleanedName
 
 
-# In[34]:
+# In[57]:
 
 
 contributions_2016 = contributions_2016.drop(['Representative', 'Office Running For', 'Total Raised'], axis = 1)
 
 
-# In[35]:
+# In[58]:
 
 
 contributions_2016 = contributions_2016[['Name', 'State', 'Party', 'Total_Raised']]
 
 
-# In[36]:
+# In[59]:
 
 
 contributions_2016
 
 
-# In[37]:
+# In[60]:
 
 
 contributions_2016.to_csv('contributions_2016.csv', index = False)
 
 
-# In[38]:
+# In[61]:
 
 
 get_ipython().system('jupyter nbconvert --to python campaignContribution2016.ipynb')

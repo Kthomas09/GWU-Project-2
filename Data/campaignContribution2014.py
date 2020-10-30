@@ -7,7 +7,7 @@
 # - adding column for party ie: democrat, republican etc
 # - adding column for state
 
-# In[1]:
+# In[ ]:
 
 
 # Dependencies
@@ -25,7 +25,7 @@ from IPython.core.display import HTML
 from datetime import date, datetime
 
 
-# In[2]:
+# In[ ]:
 
 
 contributions_2014 = pd.read_csv('campaign_contribution_2014.csv')
@@ -34,13 +34,13 @@ contributions_2018 = pd.read_csv('campaign_contribution_2018.csv')
 stateName = pd.read_csv('stateAbbrv.csv')
 
 
-# In[3]:
+# In[ ]:
 
 
 contributions_2014
 
 
-# In[4]:
+# In[ ]:
 
 
 stripList = contributions_2014['Representative']
@@ -49,13 +49,13 @@ for i in stripList:
     namesNoAstrick.append(i[:-1])
 
 
-# In[5]:
+# In[ ]:
 
 
 #namesNoAstrick
 
 
-# In[6]:
+# In[ ]:
 
 
 def stripNames(stripList):
@@ -74,13 +74,13 @@ def stripNames(stripList):
     return fullName, state, party
 
 
-# In[7]:
+# In[ ]:
 
 
 listName = stripNames(namesNoAstrick)
 
 
-# In[8]:
+# In[ ]:
 
 
 def cleanName(string):
@@ -93,42 +93,71 @@ def cleanName(string):
             i+= 1
 
 
-# In[9]:
+# In[ ]:
 
 
 #listName[0]
 
 
-# In[10]:
+# In[ ]:
 
 
 cleanedName = []
 for i in listName[0]:
     cleanedName.append(cleanName(i))
-#cleanedName
+cleanedName[:10]
 
 
-# In[11]:
+# In[ ]:
+
+
+firstName = []
+lastName = []
+for i in cleanedName:
+    j = 0
+    while j < len(i):
+        if i[j] == '.':
+            #print(j)
+            firstName.append(i[:j+1])
+            lastName.append(i[j+2:])
+            j += 1
+        elif (i[j].isspace()) & ('.' not in i):
+            firstName.append(i[:j])
+            lastName.append(i[j:])
+            j += 1
+#         elif (i[j] == ' ') & (i[j+2] != '.'):
+#             firstName.append(i[:j])
+#             lastName.append(i[j:])
+#             j += 1
+        else:
+            j+=1
+
+
+# In[ ]:
 
 
 party = []
+fullPartyName = []
 for i in listName[2]:
     if 'D' in i:
         party.append('D')
+        fullPartyName.append('Democrat')
     elif 'R' in i:
         party.append('R')
+        fullPartyName.append('Republican')
     else:
         party.append('I')
+        fullPartyName.append('Independent/Other')
 
 
-# In[12]:
+# In[ ]:
 
 
 matchList = listName[1]
 #matchList
 
 
-# In[13]:
+# In[ ]:
 
 
 AP = []
@@ -139,13 +168,13 @@ for i in stateName['Abbrev']:
         AP.append(i)
 
 
-# In[14]:
+# In[ ]:
 
 
 stateName['AP'] = AP
 
 
-# In[15]:
+# In[ ]:
 
 
 abbrev = stateName['AP']
@@ -159,26 +188,26 @@ for i in fullState:
 stateDict = dict(zip(shortAbbrev, fullStateLower))
 
 
-# In[16]:
+# In[ ]:
 
 
 otherDict = dict(zip(AP, fullStateLower))
 stateName['lower'] = fullStateLower
 
 
-# In[17]:
+# In[ ]:
 
 
 matchList[:10]
 
 
-# In[18]:
+# In[ ]:
 
 
 #stateDict
 
 
-# In[19]:
+# In[ ]:
 
 
 #Matches the strings that have AP style abbreviation with full statenames
@@ -188,7 +217,7 @@ def getMatch(string):
             return value
 
 
-# In[20]:
+# In[ ]:
 
 
 #Calling getMatch with matchList input from csv
@@ -209,7 +238,7 @@ for i in matchList:
 #holder
 
 
-# In[21]:
+# In[ ]:
 
 
 #Matches the full state names to abbreviations
@@ -219,7 +248,7 @@ def getMatch2(string):
             return key
 
 
-# In[22]:
+# In[ ]:
 
 
 #Calling getMatch2 with holder from getMatch
@@ -231,7 +260,76 @@ for i in holder:
         renamedState.append(getMatch2(i))
 
 
-# In[23]:
+# In[ ]:
+
+
+#stateDict
+
+
+# In[ ]:
+
+
+def longState(search_value):
+    for key, val in stateDict.items():
+        if key == search_value:
+            return val
+
+
+# In[ ]:
+
+
+fullStateName = []
+for i in renamedState:
+    fullStateName.append((longState(i)).capitalize())
+fullStateName[:5]
+
+
+# In[ ]:
+
+
+def upperTwo(string):
+    if string.isspace():
+        return True
+    else:
+        return False
+    
+
+
+# In[ ]:
+
+
+def capitalTwo(check):
+    holder = []
+    i = 0
+    while i < len(check):
+        if upperTwo(check[i]):
+            holder.append(' ')
+            holder.append(check[i+1].capitalize())
+            i += 1
+        elif upperTwo(check[i-1]):
+            i += 1
+            continue
+        else:
+            holder.append(check[i])
+            i += 1
+    return ''.join(holder)
+
+
+# In[ ]:
+
+
+upperState = []
+for i in fullStateName:
+    upperState.append(capitalTwo(i))
+
+
+# In[ ]:
+
+
+#upperState
+
+
+# In[ ]:
 
 
 Total_Raised = []
@@ -239,34 +337,48 @@ for i in contributions_2014['Total Raised']:
     Total_Raised.append(int(i[1:]))
 
 
-# In[24]:
+# In[ ]:
 
 
 contributions_2014['Total_Raised'] = Total_Raised
-contributions_2014['State'] = renamedState
+contributions_2014['State_Abbrv'] = renamedState
+contributions_2014['State'] = upperState
 contributions_2014['Party'] = party
-contributions_2014['Name'] = cleanedName
+contributions_2014['Party_Name'] = fullPartyName
+contributions_2014['Full_Name'] = cleanedName
+contributions_2014['First_Name'] = firstName
+contributions_2014['Last_Name'] = lastName
 
 
-# In[25]:
+# In[ ]:
 
 
 contributions_2014 = contributions_2014.drop(['Representative', 'Office Running For', 'Total Raised'], axis = 1)
 
 
-# In[26]:
+# In[ ]:
 
 
-contributions_2014 = contributions_2014[['Name', 'State', 'Party', 'Total_Raised']]
+contributions_2014 = contributions_2014[['First_Name', 'Last_Name', 'State', 'Party_Name', 'Total_Raised', 'Full_Name', 'State_Abbrv', 'Party',]]
 
 
-# In[27]:
+# In[ ]:
 
 
+contributions_2014['Full_Name'][1] = 'Mitch McConnell'
+contributions_2014['Full_Name'][10] = 'John McCain'
+contributions_2014['Full_Name'][11] = 'Claire McCaskill'
+
+
+# In[ ]:
+
+
+contributions_2014= contributions_2014.sort_values('Last_Name').reset_index()
+contributions_2014 = contributions_2014.drop(['index'], axis = 1)
 contributions_2014
 
 
-# In[28]:
+# In[ ]:
 
 
 contributions_2014.to_csv('contributions_2014.csv', index=False)
@@ -276,6 +388,12 @@ contributions_2014.to_csv('contributions_2014.csv', index=False)
 
 
 get_ipython().system('jupyter nbconvert --to python campaignContribution2014.ipynb')
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

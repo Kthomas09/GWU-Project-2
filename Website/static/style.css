@@ -5,7 +5,7 @@ h1 {
     font-size: oblique;
     font-size: 75px;
 }
-nav {    
+/* nav {    
     color: black;     
     margin-right: 30px;     
     padding: inherit;     
@@ -13,7 +13,7 @@ nav {
     background-color: black;    
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-};
+}; */
 
 #seal {
     width: 40px;

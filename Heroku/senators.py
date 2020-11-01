@@ -8,10 +8,15 @@ from flask import (
     request,
     redirect)
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine
+import pandas as pd
+import psycopg2
+# engine = create_engine("postgresql://postgres:Pepper16@localhost:5432/Candidate_db")
+# connection = engine.connect()
 
 # 2. Create an app, being sure to pass __name__
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost:5432/cars_api"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost:5432/candidates_db"
 db = SQLAlchemy(app)
 GWU = create_classes(db)
 
@@ -41,39 +46,9 @@ def send():
         writein =request.form["writein"]
         totalvotes =request.form["totalvotes"]
 
-	# Committee 
-  	# SubComittee 
-   	# Chair_Names 
-   	# Party 
-  	# State 
-   	# Ranking_Members 
+	
 
-	# First_Name 
-	# Last_Name	
- 	# State	
- 	# Party_Name	
- 	# Total_Raised 
- 	# Full_Name 
- 	# State_Abbrv	
- 	# Party 
 
-    # First_Name 
-	# Last_Name	
- 	# State	
- 	# Party_Name	
- 	# Total_Raised 
- 	# Full_Name 
- 	# State_Abbrv	
- 	# Party 
-
-    #         First_Name 
-	# Last_Name	
- 	# State	
- 	# Party_Name	
- 	# Total_Raised 
- 	# Full_Name 
- 	# State_Abbrv	
- 	# Party 
 
 
         gwu = GWU(year=year, state=state, state_po=state_po,candidate=candidate,party=party,
@@ -82,13 +57,20 @@ def send():
         db.session.commit()
         return redirect("/", code=302)
 
-    return render_template("form.html")
+        return render_template("index.html")
 # 4. Define what to do when a user hits the /about route
 @app.route("/about")
 def about():
     print("Server received request for 'About' page...")
-    return "Welcome to my 'About' page!"
+    message = "Welcome to my 'About' page!"
+    data = pd.read_sql('SELECT * FROM "votersinfo" WHERE state = "Alabama" and candidate = "Write in";', connection)
 
+    return render_template("index.html", message = message, data = data.to_html())
+
+
+
+
+    
 
 if __name__ == "__main__":
     app.run(debug=True)

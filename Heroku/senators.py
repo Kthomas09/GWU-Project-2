@@ -19,7 +19,6 @@ app = Flask(__name__)
 
 engine = create_engine(DATABASE_URL)
 connection = engine.connect()
-cursor = connection.cursor()
 
 # 3. Define what to do when a user hits the index route
 @app.route("/")
@@ -30,24 +29,17 @@ def home():
 
 @app.route("/data")
 def data():
-    data = pd.read_sql("SELECT * FROM contributions_2018 WHERE state = Alabama and candidate = 'Write in';" con = connection)
+   data = pd.read_sql("SELECT * FROM votersinfo WHERE state = Alabama and candidate = 'Write in';" con = connection)
     data_dict=data.to_dict(orient="records")
     return jsonify(data_dict)
 
+@app.route("/about")
+def about():
+    print("Server received request for 'About' page...")
+    message = "Welcome to my 'About' page!"
+    data = pd.read_sql("SELECT * FROM votersinfo WHERE state = Alabama and candidate = 'Write in';" con = connection)
 
-    # cursor.execute("select * from table_name") 
-    # data = cursor.fetchall() #data from database 
-    # return render_template("example.html", value=data)
-    # print("Server received request for 'Home' page...")
-    # return "Welcome! This is the analysis of the Campaign Finance Contribution In United States Senate!"
-# @app.route("/about")
-# def about():
-#     print("Server received request for 'About' page...")
-#     message = "Welcome to my 'About' page!"
-#     data = pd.read_sql(SELECT * FROM votersinfo
-#      WHERE state = "Alabama" and candidate = "Write in"; conn = connection)
-
-#     return render_template("index.html", message = message, data = data.to_html())
+    return render_template("index.html", message = message, data = data.to_html())
 
 
 if __name__ == "__main__":

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senate Campaign Finance</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        
+    <!-- <script type="text/javascript" src="static/testing.js"></script> -->
+
+    <link href="../static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- Nav bar for 2014-2018? -->
+    <nav>
+        <div class="dropdown"> <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown button </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item"
+                    href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item"
+                    href="#">Something else here</a> </div>
+        </div>
+    </nav>
+    <!-- Header container  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h1> Campaign Finance Contribution In United States Senate</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <section class="page 1">
+            <!-- Container for the US Map the map and analysis should be side by side? -->
+            <img src="../static/images/us_capital_night_bw.jpg" width="100%" alt="US Capital">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div id="us-map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Container for Analysis of US Map to look at the Money Flow-->
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>{{data}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page 2">
+            <img src="../static/images/george_washington.jpg" width="100%" alt="George Washington">
+            <!-- Container for the scatter plot to examine the amount of funds on the x axis and the amount of votes on the y axis -->
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div id="scatter"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Container for Analysis of scatter plot-->
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Stet constituam an has, vix in timeam pericula, duo ne odio scribentur definitionem. Ex
+                                esse tempor expetendis vis, euismod ceteros pro ut. No eum iudico fuisset, est vivendum
+                                repudiare id. Duo at regione mnesarchum, mei stet meis patrioque ne. Ea mea falli nemore
+                                cetero, vocibus recteque nec id.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page 3">
+            <!-- bar chart for the campaign funds raised on y axis and committee chair on x axis -->
+            <!-- should use different colors to demonstrate level of importance? -->
+            <img src="../static/images/senate_chamber_bw.jpg" width="100%" alt="Senate Chamber">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div id="barchart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Container for Analysis of bar chart-->
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Simul minimum gubergren eum ea, sint liber in ius. Augue vitae dicam in cum, vide laudem
+                                eu pro, tota accusamus sea cu. Cum putent reformidans an. Has semper neglegentur in, ad
+                                has menandri vulputate, nam probo intellegat cu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <img src="../static/images/money.jpg" width="100%" alt="Money">
+
+
+
+</body>
+<Footer>
+    <h4 style="text-align: center;">George Washington University</h4>
+    <img id="seal" src="images/gwu_seal.png" alt="GWU Seal" class="center">
+    <h5 style="text-align: center;">Khorolsuren "Suzie" Erdenebat, Temitayo "David" Olanbiwonnu, Jennifer S., Kent L.
+        Thomas, Cynthia Zhang</h5>
+</Footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<!-- <script src="../static/senators.js"></script> -->
+<script src="../static/js/app.js"></script>
+
+</html>

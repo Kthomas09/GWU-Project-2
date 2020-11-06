@@ -1,0 +1,85 @@
+Committee,SubCommittee,C_First_Name,C_Last_Name,C_Party,State_Abbrv,Chair_Names,State,C_Party_Name
+Committee,"Agriculture, Nutrition and Forestry",Pat,Roberts,R,MI,Pat Roberts,Michigan,Republican
+SubCommittee,"Commodities, Risk Management and Trade",John,Boozman,R,OH,John Boozman,Ohio,Republican
+SubCommittee,"Conservation, Forestry and Natural Resources",Mike,Braun,R,CO,Mike Braun,Colorado,Republican
+SubCommittee,"Livestock, Marketing and Agriculture Security",Cindy,Hyde-Smith,R,NY,Cindy Hyde-Smith,New York,Republican
+SubCommittee,"Nutrition, Agricultural Research and Specialty Crops",Deb,Fischer,R,PA,Deb Fischer,Pennsylvania,Republican
+SubCommittee,Rural Development and Energy,Joni,Ernst,R,MN,Joni Ernst,Minnesota,Republican
+Committee,Appropriations,Richard,Shelby,R,VT,Richard Shelby,Vermont,Republican
+SubCommittee,"Agriculture, Rural Development, Food and Drug Administration and Related Agencies",John,Hoeven,R,OR,John Hoeven,Oregon,Republican
+SubCommittee,"Commerce, Justice, Science and Related Agencies",Jerry,Moran,R,NH,Jerry Moran,New Hampshire,Republican
+SubCommittee,Defense,Richard,Shelby,R,IL,Richard Shelby,Illinois,Republican
+SubCommittee,Energy and Water Development,Lamar,Alexander,R,CA,Lamar Alexander,California,Republican
+SubCommittee,Financial Services and General Government,John,Kennedy,R,DE,John Kennedy,Delaware,Republican
+SubCommittee,Homeland Security,ShelleyMoore,Capito,R,MT,ShelleyMoore Capito,Montana,Republican
+SubCommittee,"Interior, Environment and Related Agencies",Lisa,Murkowski,R,NM,Lisa Murkowski,New Mexico,Republican
+SubCommittee,"Labor, Health and Human Services, Education and Related Agencies",Roy,Blunt,R,WA,Roy Blunt,Washington,Republican
+SubCommittee,Legislative Branch,Cindy,Hyde-Smith,R,CT,Cindy Hyde-Smith,Connecticut,Republican
+SubCommittee,"Military Construction, Veterans Affairs and Related Agencies",John,Boozman,R,HI,John Boozman,Hawaii,Republican
+SubCommittee,"State, Foreign Operations and Related Programs",Lindsey,Graham,R,VT,Lindsey Graham,Vermont,Republican
+SubCommittee,"Transportation, Housing and Urban Development and Related Agencies",Susan,Collins,R,RI,Susan Collins,Rhode Island,Republican
+Committee,Armed Services,Jim,Inhofe,R,RI,Jim Inhofe,Rhode Island,Republican
+SubCommittee,Airland,Tom,Cotton,R,ME,Tom Cotton,Maine,Republican
+SubCommittee,Cybersecurity,Mike,Rounds,R,WV,Mike Rounds,West Virginia,Republican
+SubCommittee,Emerging Threats and Capabilities,Joni,Ernst,R,MI,Joni Ernst,Michigan,Republican
+SubCommittee,Personnel,Thom,Tillis,R,NY,Thom Tillis,New York,Republican
+SubCommittee,Readiness and Management Support,Dan,Sullivan,R,VA,Dan Sullivan,Virginia,Republican
+SubCommittee,Seapower,David,Perdue,R,HI,David Perdue,Hawaii,Republican
+SubCommittee,Strategic Forces,Deb,Fischer,R,NM,Deb Fischer,New Mexico,Republican
+Committee,"Banking, Housing and Urban Affairs",Mike,Crapo,R,OH,Mike Crapo,Ohio,Republican
+SubCommittee,Economic Policy,Tom,Cotton,R,NV,Tom Cotton,Nevada,Republican
+SubCommittee,Financial Institutions and Consumer Protection,Tim,Scott,R,MA,Tim Scott,Massachusetts,Republican
+SubCommittee,"Housing, Transportation and Community Development",David,Perdue,R,NJ,David Perdue,New Jersey,Republican
+SubCommittee,National Security and International Trade and Finance,Ben,Sasse,R,VA,Ben Sasse,Virginia,Republican
+SubCommittee,"Securities, Insurance and Investment",Pat,Toomey,R,MD,Pat Toomey,Maryland,Republican
+Committee,Budget,Mike,Enzi,R,VT,Mike Enzi,Vermont,Republican
+Committee,"Commerce, Science and Transportation",Roger,Wicker,R,WA,Roger Wicker,Washington,Republican
+SubCommittee,Aviation and Space,Ted,Cruz,R,AZ,Ted Cruz,Arizona,Republican
+SubCommittee,"Communications, Technology, Innovation and the Internet",John,Thune,R,HI,John Thune,Hawaii,Republican
+SubCommittee,"Manufacturing, Trade and Consumer Protection",Jerry,Moran,R,CT,Jerry Moran,Connecticut,Republican
+SubCommittee,"Science, Oceans, Fisheries and Weather",Cory,Gardner,R,WI,Cory Gardner,Wisconsin,Republican
+SubCommittee,Security,Dan,Sullivan,R,MA,Dan Sullivan,Massachusetts,Republican
+SubCommittee,Transportation and Safety,Deb,Fischer,R,IL,Deb Fischer,Illinois,Republican
+Committee,Energy and Natural Resources,Lisa,Murkowski,R,WV,Lisa Murkowski,West Virginia,Republican
+SubCommittee,Energy,Bill,Cassidy,R,NM,Bill Cassidy,New Mexico,Republican
+SubCommittee,National Parks,Steve,Daines,R,ME,Steve Daines,Maine,Republican
+SubCommittee,"Public Lands, Forests and Mining",Mike,Lee,R,OR,Mike Lee,Oregon,Republican
+SubCommittee,Water and Power,Martha,McSally,R,NV,Martha McSally,Nevada,Republican
+Committee,Environment and Public Works,John,Barrasso,R,DE,John Barrasso,Delaware,Republican
+SubCommittee,Clean Air and Nuclear Safety,Mike,Braun,R,RI,Mike Braun,Rhode Island,Republican
+SubCommittee,"Fisheries, Water and Wildlife",Kevin,Cramer,R,IL,Kevin Cramer,Illinois,Republican
+SubCommittee,"Superfund, Waste Management and Regulatory Oversight",Mike,Rounds,R,NJ,Mike Rounds,New Jersey,Republican
+SubCommittee,Transportation and Infrastructure,ShelleyMoore,Capito,R,MD,ShelleyMoore Capito,Maryland,Republican
+Committee,Finance,Chuck,Grassley,R,OR,Chuck Grassley,Oregon,Republican
+SubCommittee,"Energy, Natural Resources and Infrastructure",Tim,Scott,R,CO,Tim Scott,Colorado,Republican
+SubCommittee,Fiscal Responsibility and Economic Growth,Bill,Cassidy,R,NH,Bill Cassidy,New Hampshire,Republican
+SubCommittee,Health Care,Pat,Toomey,R,MI,Pat Toomey,Michigan,Republican
+SubCommittee,"International Trade, Customs and Global Competitiveness",John,Cornyn,R,PA,John Cornyn,Pennsylvania,Republican
+SubCommittee,"Social Security, Pensions and Family Policy",Rob,Portman,R,OH,Rob Portman,Ohio,Republican
+SubCommittee,Taxation and IRS Oversight,John,Thune,R,VA,John Thune,Virginia,Republican
+Committee,Foreign Relations,Jim,Risch,R,NJ,Jim Risch,New Jersey,Republican
+SubCommittee,Africa and Global Health Policy,Lindsey,Graham,R,VA,Lindsey Graham,Virginia,Republican
+SubCommittee,"East Asia, the Pacific and International Cybersecurity Policy",Cory,Gardner,R,MA,Cory Gardner,Massachusetts,Republican
+SubCommittee,Europe and Regional Security Cooperation,Ron,Johnson,R,NH,Ron Johnson,New Hampshire,Republican
+SubCommittee,"Multilateral International Development, Multilateral Institutions and International Economic, Energy and Environmental Policy",Todd,Young,R,OR,Todd Young,Oregon,Republican
+SubCommittee,"Near East, South Asia, Central Asia and Counterterrorism",Mitt,Romney,R,CT,Mitt Romney,Connecticut,Republican
+SubCommittee,"State Department and USAID Management, International Operations and Bilateral International Development",VACANT,VACANT,R,NJ,VACANT VACANT,New Jersey,Republican
+SubCommittee,"Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights and Global Women's Issues",Marco,Rubio,R,MD,Marco Rubio,Maryland,Republican
+Committee,"Health, Education, Labor and Pensions",Lamar,Alexander,R,WA,Lamar Alexander,Washington,Republican
+SubCommittee,Children and Families,Rand,Paul,R,PA,Rand Paul,Pennsylvania,Republican
+SubCommittee,Employment and Workplace Safety,Tim,Scott,R,WI,Tim Scott,Wisconsin,Republican
+SubCommittee,Primary Health and Retirement Security,Mike,Enzi,R,VT,Mike Enzi,Vermont,Republican
+Committee,Homeland Security and Governmental Affairs,Ron,Johnson,R,MI,Ron Johnson,Michigan,Republican
+SubCommittee,Federal Spending Oversight and Emergency Management,Rand,Paul,R,NH,Rand Paul,New Hampshire,Republican
+SubCommittee,Investigations (Permanent),Rob,Portman,R,DE,Rob Portman,Delaware,Republican
+SubCommittee,Regulatory Affairs and Federal Management,James,Lankford,R,AZ,James Lankford,Arizona,Republican
+Committee,Judiciary,Lindsey,Graham,R,CA,Lindsey Graham,California,Republican
+SubCommittee,"Antitrust, Competition Policy and Consumer Rights",Mike,Lee,R,MN,Mike Lee,Minnesota,Republican
+SubCommittee,Border Security and Immigration,John,Cornyn,R,IL,John Cornyn,Illinois,Republican
+SubCommittee,Constitution,Ted,Cruz,R,HI,Ted Cruz,Hawaii,Republican
+SubCommittee,Crime and Terrorism,Josh,Hawley,R,RI,Josh Hawley,Rhode Island,Republican
+SubCommittee,Intellectual Property,Thom,Tillis,R,DE,Thom Tillis,Delaware,Republican
+SubCommittee,"Oversight, Agency Action, Federal Rights and Federal Courts",Ben,Sasse,R,CT,Ben Sasse,Connecticut,Republican
+Committee,Rules and Administration,Roy,Blunt,R,MN,Roy Blunt,Minnesota,Republican
+Committee,Small Business and Entrepreneurship,Marco,Rubio,R,MD,Marco Rubio,Maryland,Republican
+Committee,Veterans' Affairs,Jerry,Moran,R,MT,Jerry Moran,Montana,Republican

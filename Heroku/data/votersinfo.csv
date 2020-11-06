@@ -1,0 +1,561 @@
+year,state,state_po,candidate,party,candidatevotes,writein,totalvotes
+2014,Alabama,AL,Write in,No Party,22484,True,818090
+2014,Alabama,AL,Jeff Sessions,Republican,795606,False,818090
+2014,Alaska,AK,Write in,No Party,1376,True,282400
+2014,Alaska,AK,Mark Begich,Democrat,129431,False,282400
+2014,Alaska,AK,Mark S. Fish,Libertarian,10512,False,282400
+2014,Alaska,AK,Ted Gianoutsos,nonaffiliated,5636,False,282400
+2014,Alaska,AK,Dan Sullivan,Republican,135445,False,282400
+2014,Arkansas,AR,Tom Cotton,Republican,478819,False,847505
+2014,Arkansas,AR,Mark L. Pryor,Democrat,334174,False,847505
+2014,Arkansas,AR,Mark H. Swaney,green,16797,False,847505
+2014,Arkansas,AR,Nathan LaFrance,Libertarian,17210,False,847505
+2014,Arkansas,AR,Write in,No Party,505,True,847505
+2014,Colorado,CO,Ra_l Acosta,unaffiliated,24151,False,2041058
+2014,Colorado,CO,Write in,No Party,21,True,2041058
+2014,Colorado,CO,Cory Gardner,Republican,983891,False,2041058
+2014,Colorado,CO,Gaylon Kent,Libertarian,52876,False,2041058
+2014,Colorado,CO,Write in,No Party,17,True,2041058
+2014,Colorado,CO,Bill Hammons,unity party of colorado,6427,False,2041058
+2014,Colorado,CO,Steve Shogan,unaffiliated,29472,False,2041058
+2014,Colorado,CO,Mark Udall,Democrat,944203,False,2041058
+2014,Delaware,DE,Kevin Wade,Republican,98823,False,234038
+2014,Delaware,DE,Christopher A. Coons,Democrat,130655,False,234038
+2014,Delaware,DE,Andrew Groff,green,4560,False,234038
+2014,Georgia,GA,David A. Perdue,Republican,1358088,False,2567805
+2014,Georgia,GA,Write in,No Party,14,True,2567805
+2014,Georgia,GA,M. Michelle Nunn,Democrat,1160811,False,2567805
+2014,Georgia,GA,Write in,No Party,9,True,2567805
+2014,Georgia,GA,Amanda C. Swafford,Libertarian,48862,False,2567805
+2014,Georgia,GA,Write in,No Party,21,True,2567805
+2014,Hawaii,HI,Blank Vote,No Party,15777,False,369703
+2014,Hawaii,HI,Cam Cavasso,Republican,98006,False,369703
+2014,Hawaii,HI,Michael Kokoski,Libertarian,8941,False,369703
+2014,Hawaii,HI,Brian Schatz,Democrat,246827,False,369703
+2014,Hawaii,HI,Over Vote,No Party,152,False,369703
+2014,Idaho,ID,Nels Mitchell,Democrat,151574,False,437170
+2014,Idaho,ID,James E. Risch,Republican,285596,False,437170
+2014,Illinois,IL,Richard J. Durbin,Democrat,1929637,False,3603519
+2014,Illinois,IL,Sharon Hansen,Libertarian,135316,False,3603519
+2014,Illinois,IL,"James D. ""Jim"" Oberweis",Republican,1538522,False,3603519
+2014,Illinois,IL,Write in,No Party,12,True,3603519
+2014,Illinois,IL,Write in,No Party,1,True,3603519
+2014,Illinois,IL,Write in,No Party,31,True,3603519
+2014,Iowa,IA,Douglas Butzier,Libertarian,8232,False,1129700
+2014,Iowa,IA,Rick Stewart,independent,26815,False,1129700
+2014,Iowa,IA,Write in,No Party,1111,True,1129700
+2014,Iowa,IA,Bob Quast,bob quast for term limits,5873,False,1129700
+2014,Iowa,IA,Ruth Smith,nominated by petition,4724,False,1129700
+2014,Iowa,IA,Joni Ernst,Republican,588575,False,1129700
+2014,Iowa,IA,Bruce Braley,Democrat,494370,False,1129700
+2014,Kansas,KS,Greg Orman,independent,368372,False,866191
+2014,Kansas,KS,Pat Roberts,Republican,460350,False,866191
+2014,Kansas,KS,Randall Batson,Libertarian,37469,False,866191
+2014,Kentucky,KY,Write in,No Party,17,True,1435868
+2014,Kentucky,KY,David M. Patterson,Libertarian,44240,False,1435868
+2014,Kentucky,KY,Write in,No Party,53,True,1435868
+2014,Kentucky,KY,Alison Lundergan Grimes,Democrat,584698,False,1435868
+2014,Kentucky,KY,Mich McConnell,Republican,806787,False,1435868
+2014,Kentucky,KY,Write in,No Party,9,True,1435868
+2014,Kentucky,KY,Gregory D. Welch,No Party,64,True,1435868
+2014,Louisiana,LA,Brannon Lee McMorris,Libertarian,13034,False,3523183
+2014,Louisiana,LA,Wayne Ables,Democrat,11323,False,3523183
+2014,Louisiana,LA,Vallian Senegal,Democrat,3835,False,3523183
+2014,Louisiana,LA,William P. Waymire Jr.,Democrat,4673,False,3523183
+2014,Louisiana,LA,Bill Cassidy,Republican,1712379,False,3523183
+2014,Louisiana,LA,Mary L. Landrieu,Democrat,1561210,False,3523183
+2014,Louisiana,LA,Thomas Clements,Republican,14173,False,3523183
+2014,Louisiana,LA,"""Rob"" Maness",Republican,202556,False,3523183
+2014,Maine,ME,Other,No Party,269,False,616996
+2014,Maine,ME,Blank Vote,No Party,12968,False,616996
+2014,Maine,ME,Susan M. Collins,Republican,413505,False,616996
+2014,Maine,ME,Shenna Bellows,Democrat,190254,False,616996
+2014,Massachusetts,MA,Brian J. Herr,Republican,791950,False,2186789
+2014,Massachusetts,MA,Blank Vote,No Party,101817,False,2186789
+2014,Massachusetts,MA,Other,No Party,3072,False,2186789
+2014,Massachusetts,MA,Write in,No Party,6,True,2186789
+2014,Massachusetts,MA,Edward J. Markey,Democrat,1289944,False,2186789
+2014,Michigan,MI,Write in,No Party,67,True,3121771
+2014,Michigan,MI,Richard A. Matkin,u.s. taxpayers,37529,False,3121771
+2014,Michigan,MI,Terri Lynn Land,Republican,1290199,False,3121771
+2014,Michigan,MI,Jim Fulner,Libertarian,62897,False,3121771
+2014,Michigan,MI,Gary C. Peters,Democrat,1704936,False,3121771
+2014,Michigan,MI,Chris Wahmhoff,green,26137,False,3121771
+2014,Michigan,MI,Write in,No Party,6,True,3121771
+2014,Minnesota,MN,Heather Johnson,Libertarian,29685,False,1981528
+2014,Minnesota,MN,Steve Carlson,independence,47530,False,1981528
+2014,Minnesota,MN,Mike McFadden,Republican,850227,False,1981528
+2014,Minnesota,MN,Write in,No Party,881,True,1981528
+2014,Minnesota,MN,Al Franken,Democrat,1053205,False,1981528
+2014,Mississippi,MS,Travis W. Childers,Democrat,239439,False,631858
+2014,Mississippi,MS,Shawn O'Hara,reform,13938,False,631858
+2014,Mississippi,MS,Thad Cochran,Republican,378481,False,631858
+2014,Montana,MT,Steve Daines,Republican,213709,False,369826
+2014,Montana,MT,Roger Roots,Libertarian,7933,False,369826
+2014,Montana,MT,Amanda Curtis,Democrat,148184,False,369826
+2014,Nebraska,NE,Dave Domina,Democrat,170127,False,540337
+2014,Nebraska,NE,Todd F. Watson,by petition,6260,False,540337
+2014,Nebraska,NE,Jim Jenkins,by petition,15868,False,540337
+2014,Nebraska,NE,Ben Sasse,Republican,347636,False,540337
+2014,Nebraska,NE,scatter,No Party,446,True,540337
+2014,New Hampshire,NH,Jeanne Shaheen,Democrat,251184,False,488159
+2014,New Hampshire,NH,Scott P. Brown,Republican,235347,False,488159
+2014,New Hampshire,NH,scatter,No Party,1628,False,488159
+2014,New Jersey,NJ,Joseph Baratelli,Libertarian,16721,False,1869535
+2014,New Jersey,NJ,Cory A. Booker,Democrat,1043866,False,1869535
+2014,New Jersey,NJ,Antonio N. Sabas,independent,3544,False,1869535
+2014,New Jersey,NJ,Jeff Bell,Republican,791297,False,1869535
+2014,New Jersey,NJ,Eugene Martin LaVergne,d-r party,3890,False,1869535
+2014,New Jersey,NJ,Jeff Boss,independent,4513,False,1869535
+2014,New Jersey,NJ,Hank Schroeder,economic growth,5704,False,1869535
+2014,New Mexico,NM,Allen E. Weh,Republican,229097,False,515506
+2014,New Mexico,NM,Tom Udall,Democrat,286409,False,515506
+2014,North Carolina,NC,Kay R. Hagan,Democrat,1377651,False,2915281
+2014,North Carolina,NC,Write in,No Party,201,True,2915281
+2014,North Carolina,NC,Thom Tillis,Republican,1423259,False,2915281
+2014,North Carolina,NC,Write in,No Party,142,True,2915281
+2014,North Carolina,NC,Sean Haugh,Libertarian,109100,False,2915281
+2014,North Carolina,NC,John Rhodes,No Party,621,True,2915281
+2014,North Carolina,NC,Write in,No Party,4307,True,2915281
+2014,Oklahoma,OK,Joan Farr,independent,10554,False,820733
+2014,Oklahoma,OK,Connie Johnson,Democrat,237923,False,820890
+2014,Oklahoma,OK,Matt Silverstein,Democrat,234307,False,820733
+2014,Oklahoma,OK,Mark T. Beard,independent,25965,False,820890
+2014,Oklahoma,OK,James M. Inhofe,Republican,558166,False,820733
+2014,Oklahoma,OK,Ray Woods,independent,9913,False,820733
+2014,Oklahoma,OK,James Lankford,Republican,557002,False,820890
+2014,Oklahoma,OK,Aaron DeLozier,independent,7793,False,820733
+2014,Oregon,OR,Mike Montchalin,Libertarian,44916,False,1461618
+2014,Oregon,OR,Christina Jean Lugo,green,32434,False,1461618
+2014,Oregon,OR,Jeff Merkley,Democrat,814537,False,1461618
+2014,Oregon,OR,Monica Wehby,Republican,538847,False,1461618
+2014,Oregon,OR,James E. Leuenberger,constitution,24212,False,1461618
+2014,Oregon,OR,Other,No Party,6672,False,1461618
+2014,Rhode Island,RI,Jack Reed,Democrat,223675,False,316898
+2014,Rhode Island,RI,Mark S. Zaccaria,Republican,92684,False,316898
+2014,Rhode Island,RI,Write in,No Party,539,True,316898
+2014,South Carolina,SC,Brad Hutto,working families,24207,False,1240075
+2014,South Carolina,SC,Brad Hutto,Democrat,456726,False,1240075
+2014,South Carolina,SC,Jill Bossi,american,21652,False,1238982
+2014,South Carolina,SC,Lindsey Graham,Republican,672941,False,1240075
+2014,South Carolina,SC,Joyce Dickerson,Democrat,459583,False,1238982
+2014,South Carolina,SC,Write in,No Party,4774,True,1240075
+2014,South Carolina,SC,Tim Scott,Republican,757215,False,1238982
+2014,South Carolina,SC,Write in,No Party,532,True,1238982
+2014,South Carolina,SC,Thomas Ravenel,petition,47588,False,1240075
+2014,South Carolina,SC,Victor Kocher,Libertarian,33839,False,1240075
+2014,South Dakota,SD,Mike Rounds,Republican,140741,False,279412
+2014,South Dakota,SD,Gordon Howie,independent,8474,False,279412
+2014,South Dakota,SD,Larry Pressler,independent,47741,False,279412
+2014,South Dakota,SD,Rick Weiland,Democrat,82456,False,279412
+2014,Tennessee,TN,Martin Pleasant,green,12570,False,1374065
+2014,Tennessee,TN,Tom Emerson Jr.,independent,11157,False,1374065
+2014,Tennessee,TN,Gordon Ball,Democrat,437848,False,1374065
+2014,Tennessee,TN,C. Salekin,independent,787,False,1374065
+2014,Tennessee,TN,Lamar Alexander,Republican,850087,False,1374065
+2014,Tennessee,TN,Bartholomew J. Phillips,independent,2386,False,1374065
+2014,Tennessee,TN,Danny Page,independent,7713,False,1374065
+2014,Tennessee,TN,Edmund L. Gauthier,independent,2314,False,1374065
+2014,Tennessee,TN,Rick Tyler,independent,5759,False,1374065
+2014,Tennessee,TN,Joe Wilmoth,constitution,36088,False,1374065
+2014,Tennessee,TN,Eric Schechter,independent,1673,False,1374065
+2014,Tennessee,TN,Write in,No Party,5,True,1374065
+2014,Tennessee,TN,Joshua James,independent,5678,False,1374065
+2014,Texas,TX,Write in,No Party,988,True,4648358
+2014,Texas,TX,Rebecca Paddock,Libertarian,133751,False,4648358
+2014,Texas,TX,"Emily ""Spicybrown"" Sanchez",green,54701,False,4648358
+2014,Texas,TX,John Cornyn,Republican,2861531,False,4648358
+2014,Texas,TX,David M. Alameel,Democrat,1597387,False,4648358
+2014,Virginia,VA,Ed. W. Gillespie,Republican,1055940,False,2184473
+2014,Virginia,VA,Mark R. Warner,Democrat,1073667,False,2184473
+2014,Virginia,VA,Robert C. Sarvis,Libertarian,53102,False,2184473
+2014,Virginia,VA,Write in,No Party,1764,True,2184473
+2014,West Virginia,WV,Phil Hudok,constitution,2566,False,453689
+2014,West Virginia,WV,Write in,No Party,5,True,453689
+2014,West Virginia,WV,Natalie Tennant,Democrat,156360,False,453689
+2014,West Virginia,WV,Shelley Moore Capito,Republican,281820,False,453689
+2014,West Virginia,WV,John S. Buckley,Libertarian,7409,False,453689
+2014,West Virginia,WV,Bob Henry Baber,mountain,5504,False,453689
+2014,West Virginia,WV,Write in,No Party,10,True,453689
+2014,West Virginia,WV,Write in,No Party,7,True,453689
+2014,West Virginia,WV,Write in,No Party,8,True,453689
+2014,Wyoming,WY,Curt Gottshall,independent,13311,False,171153
+2014,Wyoming,WY,Over Vote,No Party,130,False,171153
+2014,Wyoming,WY,Joseph S. Porambo,Libertarian,3677,False,171153
+2014,Wyoming,WY,Blank Vote,No Party,2633,False,171153
+2014,Wyoming,WY,Write in,No Party,471,True,171153
+2014,Wyoming,WY,Michael B. Enzi,Republican,121554,False,171153
+2014,Wyoming,WY,Charlie Hardy,Democrat,29377,False,171153
+2016,Alabama,AL,Ron Crumpton,Democrat,748709,False,2087444
+2016,Alabama,AL,Richard C. Shelby,Republican,1335104,False,2087444
+2016,Alabama,AL,Write in,No Party,3631,True,2087444
+2016,Alaska,AK,Joe Miller,Libertarian,90825,False,311441
+2016,Alaska,AK,Ted Gianoutsos,independent,1758,False,311441
+2016,Alaska,AK,Ray Metcalfe,Democrat,36200,False,311441
+2016,Alaska,AK,Margaret Stock,independent,41194,False,311441
+2016,Alaska,AK,Breck A. Craig,independent,2609,False,311441
+2016,Alaska,AK,Lisa Murkowski,Republican,138149,False,311441
+2016,Alaska,AK,Write in,No Party,706,True,311441
+2016,Arizona,AZ,Anthony Camboni,none,45,True,2530730
+2016,Arizona,AZ,Ann Kirkpatrick,Democrat,1031245,False,2530730
+2016,Arizona,AZ,Write in,No Party,4,True,2530730
+2016,Arizona,AZ,Write in,No Party,694,True,2530730
+2016,Arizona,AZ,Leonard Clark,independent,83,True,2530730
+2016,Arizona,AZ,Sydney Dudikoff,Republican,494,True,2530730
+2016,Arizona,AZ,Write in,No Party,34,True,2530730
+2016,Arizona,AZ,John McCain,Republican,1359267,False,2530730
+2016,Arizona,AZ,Write in,No Party,223,True,2530730
+2016,Arizona,AZ,Write in,No Party,7,True,2530730
+2016,Arizona,AZ,Gary Swing,green,138634,False,2530730
+2016,Arkansas,AR,John Boozman,Republican,661984,False,1107522
+2016,Arkansas,AR,Write in,No Party,1070,True,1107522
+2016,Arkansas,AR,Conner Eldridge,Democrat,400602,False,1107522
+2016,Arkansas,AR,Frank Gilbert,Libertarian,43866,False,1107522
+2016,California,CA,Loretta Sanchez,Democrat,4701417,False,12244170
+2016,California,CA,Kamala D. Harris,Democrat,7542753,False,12244170
+2016,Colorado,CO,Paul Noel Fiorino,none,3216,False,2743023
+2016,Colorado,CO,Dan Chapin,none,8361,False,2743023
+2016,Colorado,CO,Michael F. Bennet,Democrat,1370710,False,2743023
+2016,Colorado,CO,Lily Tang Williams,Libertarian,99277,False,2743023
+2016,Colorado,CO,Bill Hammons,unity party of colorado,9336,False,2743023
+2016,Colorado,CO,Darryl Glenn,Republican,1215318,False,2743023
+2016,Colorado,CO,Arn Menconi,green,36805,False,2743023
+2016,Connecticut,CT,Richard Blumenthal,Democrat,920766,False,1596276
+2016,Connecticut,CT,Richard Blumenthal,working families,87948,False,1596276
+2016,Connecticut,CT,Write in,No Party,26,True,1596276
+2016,Connecticut,CT,Dan Carter,Republican,552621,False,1596276
+2016,Connecticut,CT,Write in,No Party,12,True,1596276
+2016,Connecticut,CT,Richard Lion,Libertarian,18190,False,1596276
+2016,Connecticut,CT,Jeffery Russell,green,16713,False,1596276
+2016,Florida,FL,Charles Frederick Tolbert,No Party,56,True,9301820
+2016,Florida,FL,Steven Machat,none,26918,False,9301820
+2016,Florida,FL,Write in,No Party,7,True,9301820
+2016,Florida,FL,Patrick Murphy,Democrat,4122088,False,9301820
+2016,Florida,FL,Paul Stanton,Libertarian,196956,False,9301820
+2016,Florida,FL,Basil E. Dalack,none,22236,False,9301820
+2016,Florida,FL,Write in,No Party,50,True,9301820
+2016,Florida,FL,Write in,No Party,10,True,9301820
+2016,Florida,FL,Write in,No Party,37,True,9301820
+2016,Florida,FL,Bruce Nathan,none,52451,False,9301820
+2016,Florida,FL,Marco Rubio,Republican,4835191,False,9301820
+2016,Florida,FL,Tony Khoury,none,45820,False,9301820
+2016,Georgia,GA,Write in,No Party,813,True,3898605
+2016,Georgia,GA,Jim Barksdale,Democrat,1599726,False,3898605
+2016,Georgia,GA,Allen Buckley,Libertarian,162260,False,3898605
+2016,Georgia,GA,Johnny Isakson,Republican,2135806,False,3898605
+2016,Hawaii,HI,Blank Vote,No Party,20763,False,437664
+2016,Hawaii,HI,"John M. ""Raghu"" Giuffre",american shopping party,1393,False,437664
+2016,Hawaii,HI,Joy J. Allison,constitution,9103,False,437664
+2016,Hawaii,HI,Michael A. Kokoski,Libertarian,6809,False,437664
+2016,Hawaii,HI,Brian Schatz,Democrat,306604,False,437664
+2016,Hawaii,HI,Over Vote,No Party,339,False,437664
+2016,Hawaii,HI,John Carroll,Republican,92653,False,437664
+2016,Idaho,ID,Ray J. Writz,constitution,41677,False,678943
+2016,Idaho,ID,Mike Crapo,Republican,449017,False,678943
+2016,Idaho,ID,Jerry Sturgill,Democrat,188249,False,678943
+2016,Illinois,IL,Scott Summers,green,117619,False,5491878
+2016,Illinois,IL,Kenton McMillen,Libertarian,175988,False,5491878
+2016,Illinois,IL,Write in,No Party,42,True,5491878
+2016,Illinois,IL,Mark Kirk,Republican,2184692,False,5491878
+2016,Illinois,IL,Tammy Duckworth,Democrat,3012940,False,5491878
+2016,Illinois,IL,Write in,No Party,77,True,5491878
+2016,Illinois,IL,Write in,No Party,106,True,5491878
+2016,Illinois,IL,Write in,No Party,408,True,5491878
+2016,Illinois,IL,Write in,No Party,5,True,5491878
+2016,Illinois,IL,Write in,No Party,1,True,5491878
+2016,Indiana,IN,Evan Bayh,Democrat,1158947,False,2732546
+2016,Indiana,IN,Todd C. Young,Republican,1423991,False,2732546
+2016,Indiana,IN,Lucy Brenton,Libertarian,149481,False,2732546
+2016,Indiana,IN,Write in,No Party,127,True,2732546
+2016,Iowa,IA,Chuck Grassley,Republican,926007,False,1541036
+2016,Iowa,IA,Patty Judge,Democrat,549460,False,1541036
+2016,Iowa,IA,Michael Luick-Thrams,nominated by petition,4441,False,1541036
+2016,Iowa,IA,Write in,No Party,1685,True,1541036
+2016,Iowa,IA,Charles Aldrich,Libertarian,41794,False,1541036
+2016,Iowa,IA,Jim Hennager,new independent party iowa,17649,False,1541036
+2016,Kansas,KS,Patrick Wiesner,Democrat,379740,False,1177922
+2016,Kansas,KS,Write in,No Party,46,True,1177922
+2016,Kansas,KS,Robert D. Garrard,Libertarian,65760,False,1177922
+2016,Kansas,KS,Jerry Moran,Republican,732376,False,1177922
+2016,Kentucky,KY,Rand Paul,Republican,1090177,False,1903465
+2016,Kentucky,KY,Write in,No Party,6,True,1903465
+2016,Kentucky,KY,Jim Gray,Democrat,813246,False,1903465
+2016,Kentucky,KY,Write in,No Party,36,True,1903465
+2016,Louisiana,LA,"Charles W. Boustany, Jr.",Republican,298008,False,1997218
+2016,Louisiana,LA,Derrick Edwards,Democrat,51774,False,1997218
+2016,Louisiana,LA,"M. V. ""Vinny""Mendoza",Democrat,4927,False,1997218
+2016,Louisiana,LA,John Fleming,Republican,204026,False,1997218
+2016,Louisiana,LA,Caroline Fayard,Democrat,240917,False,1997218
+2016,Louisiana,LA,Peter Williams,Democrat,6855,False,1997218
+2016,Louisiana,LA,LeRoy Gillam,Libertarian,4067,False,1997218
+2016,Louisiana,LA,"""Rob"" Maness",Republican,90856,False,1997218
+2016,Louisiana,LA,Kaitlin Marone,none,4108,False,1997218
+2016,Louisiana,LA,Joshua Pellerin,Democrat,7395,False,1997218
+2016,Louisiana,LA,"William Robert Lang, Jr.",other,1424,False,1997218
+2016,Louisiana,LA,Beryl Billiot,none,19352,False,1997218
+2016,Louisiana,LA,Arden Wells,none,1483,False,1997218
+2016,Louisiana,LA,Troy Hebert,none,9503,False,1997218
+2016,Louisiana,LA,John Kennedy,Republican,536191,False,1997218
+2016,Louisiana,LA,"Gregory Taylor, Jr.",other,1151,False,1997218
+2016,Louisiana,LA,Thomas P. Clements,Libertarian,11370,False,1997218
+2016,Louisiana,LA,Gary Landrieu,Democrat,45587,False,1997218
+2016,Louisiana,LA,Foster Campbell,Democrat,347816,False,1997218
+2016,Louisiana,LA,Abhay Patel,Republican,1576,False,1997218
+2016,Louisiana,LA,"""Joseph"" Cao",Republican,21019,False,1997218
+2016,Louisiana,LA,David Duke,Republican,58606,False,1997218
+2016,Louisiana,LA,"Donald ""Crawdaddy"" Crawford",Republican,25523,False,1997218
+2016,Louisiana,LA,Charles Marsala,Republican,3684,False,1997218
+2016,Maryland,MD,Chris Van Hollen,Democrat,1659907,False,2726170
+2016,Maryland,MD,Margaret Flowers,green,89970,False,2726170
+2016,Maryland,MD,Write in,No Party,77,True,2726170
+2016,Maryland,MD,Write in,No Party,7,True,2726170
+2016,Maryland,MD,Write in,No Party,242,True,2726170
+2016,Maryland,MD,Write in,No Party,138,True,2726170
+2016,Maryland,MD,Write in,No Party,15,True,2726170
+2016,Maryland,MD,Write in,No Party,26,True,2726170
+2016,Maryland,MD,Write in,No Party,3231,True,2726170
+2016,Maryland,MD,Kathy Szeliga,Republican,972557,False,2726170
+2016,Missouri,MO,Write in,No Party,4,True,2802641
+2016,Missouri,MO,Write in,No Party,53,True,2802641
+2016,Missouri,MO,Write in,No Party,12,True,2802641
+2016,Missouri,MO,Roy Blunt,Republican,1378458,False,2802641
+2016,Missouri,MO,Johnathan McFarland,green,30743,False,2802641
+2016,Missouri,MO,Steven Wallace,No Party,1,True,2802641
+2016,Missouri,MO,Fred Ryman,constitution,25407,False,2802641
+2016,Missouri,MO,Jason Kander,Democrat,1300200,False,2802641
+2016,Missouri,MO,Write in,No Party,21,True,2802641
+2016,Missouri,MO,Jonathan Dine,Libertarian,67738,False,2802641
+2016,Nevada,NV,Joseph J. Heck,Republican,495079,False,1108294
+2016,Nevada,NV,"Thomas ""Tom"" Sawyer",none,14208,False,1108294
+2016,Nevada,NV,Catherine Cortez Masto,Democrat,521994,False,1108294
+2016,Nevada,NV,Tony Gumina,none,10740,False,1108294
+2016,Nevada,NV,Tom Jones,independent american,17128,False,1108294
+2016,Nevada,NV,none of the above,No Party,42257,False,1108294
+2016,Nevada,NV,Jarrod M. Williams,none,6888,False,1108294
+2016,New Hampshire,NH,Kelly Ayotte,Republican,353632,False,739140
+2016,New Hampshire,NH,Maggie Hassan,Democrat,354649,False,739140
+2016,New Hampshire,NH,scatter,No Party,520,False,739140
+2016,New Hampshire,NH,Brian Chabot,Libertarian,12597,False,739140
+2016,New Hampshire,NH,Aaron Day,independent,17742,False,739140
+2016,New York,NY,Alex Merced,Libertarian,48121,False,7800725
+2016,New York,NY,Charles E. Schumer,working families,241672,False,7800725
+2016,New York,NY,Wendy Long,Republican,1723927,False,7800725
+2016,New York,NY,Blank Vote,No Party,400943,False,7800725
+2016,New York,NY,Void Vote,No Party,3474,False,7800725
+2016,New York,NY,Wendy Long,reform,17813,False,7800725
+2016,New York,NY,Charles E. Schumer,women's equality,45402,False,7800725
+2016,New York,NY,scatter,No Party,3472,False,7800725
+2016,New York,NY,Charles E. Schumer,Democrat,4784220,False,7800725
+2016,New York,NY,Wendy Long,conservative,267613,False,7800725
+2016,New York,NY,Robin Laverne Wilson,green,113413,False,7800725
+2016,New York,NY,Charles E. Schumer,independence,150655,False,7800725
+2016,North Carolina,NC,Deborah K. Ross,Democrat,2128165,False,4691133
+2016,North Carolina,NC,Richard Burr,Republican,2395376,False,4691133
+2016,North Carolina,NC,Sean Haugh,Libertarian,167592,False,4691133
+2016,North Dakota,ND,Write in,No Party,366,True,342501
+2016,North Dakota,ND,James Germalic,independent,4675,False,342501
+2016,North Dakota,ND,John Hoeven,Republican,268788,False,342501
+2016,North Dakota,ND,Eliot Glassheim,Democrat,58116,False,342501
+2016,North Dakota,ND,Robert N. Marquette,Libertarian,10556,False,342501
+2016,Ohio,OH,Write in,No Party,111,True,5374164
+2016,Ohio,OH,Scott Rupert,none,77291,False,5374164
+2016,Ohio,OH,Ted Strickland,Democrat,1996908,False,5374164
+2016,Ohio,OH,Joseph R. DeMare,green,88246,False,5374164
+2016,Ohio,OH,Tom Connors,none,93041,False,5374164
+2016,Ohio,OH,Rob Portman,Republican,3118567,False,5374164
+2016,Oklahoma,OK,Mike Workman,Democrat,355911,False,1448047
+2016,Oklahoma,OK,James Lankford,Republican,980892,False,1448047
+2016,Oklahoma,OK,Sean Braddy,independent,40405,False,1448047
+2016,Oklahoma,OK,Robert T. Murphy,Libertarian,43421,False,1448047
+2016,Oklahoma,OK,Mark T. Beard,independent,27418,False,1448047
+2016,Oregon,OR,Eric Navickas,pacific green,48823,False,1952478
+2016,Oregon,OR,Other,No Party,2058,False,1952478
+2016,Oregon,OR,Ron Wyden,Democrat,1105119,False,1952478
+2016,Oregon,OR,Shanti S. Lewallen,working families,61915,False,1952478
+2016,Oregon,OR,Steven C. Reynolds,independent,59516,False,1952478
+2016,Oregon,OR,Mark Callahan,Republican,651106,False,1952478
+2016,Oregon,OR,Jim Lindsay,Libertarian,23941,False,1952478
+2016,Pennsylvania,PA,Katie McGinty,Democrat,2865012,False,6051856
+2016,Pennsylvania,PA,Edward T. Clifford III,Libertarian,235142,False,6051856
+2016,Pennsylvania,PA,Patrick J. Toomey,Republican,2951702,False,6051856
+2016,South Carolina,SC,Thomas Dixon,Democrat,704540,False,2049893
+2016,South Carolina,SC,Bill Bledsoe,Libertarian,24830,False,2049893
+2016,South Carolina,SC,Thomas Dixon,working families,37610,False,2049893
+2016,South Carolina,SC,Bill Bledsoe,constitution,12652,False,2049893
+2016,South Carolina,SC,Tim Scott,Republican,1241609,False,2049893
+2016,South Carolina,SC,Write in,No Party,1857,True,2049893
+2016,South Carolina,SC,Rebel Michael Scarborough,american,11923,False,2049893
+2016,South Carolina,SC,Thomas Dixon,green,14872,False,2049893
+2016,South Dakota,SD,John R. Thune,Republican,265516,False,369656
+2016,South Dakota,SD,Jay Williams,Democrat,104140,False,369656
+2016,Utah,UT,Mike Lee,Republican,760220,False,1115583
+2016,Utah,UT,Bill Barron,none,26166,False,1115583
+2016,Utah,UT,Stoney Fonua,independent american,27339,False,1115583
+2016,Utah,UT,Misty K. Snow,Democrat,301858,False,1115583
+2016,Vermont,VT,Void Vote,No Party,466,False,320467
+2016,Vermont,VT,Scott Milne,Republican,103637,False,320467
+2016,Vermont,VT,Cris Ericson,united states marijuana,9156,False,320467
+2016,Vermont,VT,Jerry Trudell,independent,5223,False,320467
+2016,Vermont,VT,Pete Diamondstone,liberty union,3241,False,320467
+2016,Vermont,VT,Blank Vote,No Party,6192,False,320467
+2016,Vermont,VT,Write in,No Party,309,True,320467
+2016,Vermont,VT,Patrick J. Leahy,Democrat,192243,False,320467
+2016,Washington,WA,Chris Vance,Republican,1329338,False,3243317
+2016,Washington,WA,Patty Murray,Democrat,1913979,False,3243317
+2016,Wisconsin,WI,Russ Feingold,Democrat,1380335,False,2948741
+2016,Wisconsin,WI,Philip N. Anderson,Libertarian,87531,False,2948741
+2016,Wisconsin,WI,Write in,No Party,8,True,2948741
+2016,Wisconsin,WI,Ron Johnson,Republican,1479471,False,2948741
+2016,Wisconsin,WI,scatter,No Party,1396,False,2948741
+2018,Arizona,AZ,Martha McSally,Republican,1135200,False,2384308
+2018,Arizona,AZ,Kyrsten Sinema,Democrat,1191100,False,2384308
+2018,Arizona,AZ,Angela Green,green,57442,False,2384308
+2018,Arizona,AZ,Write in,No Party,566,True,2384308
+2018,California,CA,Dianne Feinstein,Democrat,6019422,False,11113364
+2018,California,CA,Kevin De Leon,Democrat,5093942,False,11113364
+2018,Connecticut,CT,Christopher S Murphy,Democrat,787685,False,1386840
+2018,Connecticut,CT,Matthew Corey,Republican,545717,False,1386840
+2018,Connecticut,CT,Christopher S Murphy,working families,37894,False,1386840
+2018,Connecticut,CT,Richard Lion,Libertarian,8838,False,1386840
+2018,Connecticut,CT,Jeff Russell,green,6618,False,1386840
+2018,Connecticut,CT,Write in,No Party,88,True,1386840
+2018,Delaware,DE,Thomas R Carper,Democrat,217385,False,362592
+2018,Delaware,DE,Robert B Arlett,Republican,137127,False,362592
+2018,Delaware,DE,Demitri G Theodoropoulos,green,4170,False,362592
+2018,Delaware,DE,Nadine M Frost,Libertarian,3910,False,362592
+2018,Florida,FL,Rick Scott,Republican,4099505,False,8190005
+2018,Florida,FL,Bill Nelson,Democrat,4089472,False,8190005
+2018,Florida,FL,Write in,No Party,1028,True,8190005
+2018,Hawaii,HI,Mazie K. Hirono,Democrat,276316,False,388351
+2018,Hawaii,HI,Ron Curtis,Republican,112035,False,388351
+2018,Indiana,IN,Mike Braun,Republican,1158000,False,2282565
+2018,Indiana,IN,Joe Donnelly,Democrat,1023553,False,2282565
+2018,Indiana,IN,Lucy M. Brenton,Libertarian,100942,False,2282565
+2018,Indiana,IN,Write in,No Party,70,True,2282565
+2018,Maine,ME,Eric L. Brakey,Republican,223502,False,634409
+2018,Maine,ME,"Angus S. King, Jr.",independent,344575,False,634409
+2018,Maine,ME,Zak Ringelstein,Democrat,66268,False,634409
+2018,Maine,ME,Others,No Party,64,False,634409
+2018,Maryland,MD,Tony Campbell,Republican,697017,False,2299889
+2018,Maryland,MD,Ben Cardin,Democrat,1491614,False,2299889
+2018,Maryland,MD,Arvin Vohra,Libertarian,22943,False,2299889
+2018,Maryland,MD,Neal Simon,unaffiliated,85964,False,2299889
+2018,Maryland,MD,Write in,No Party,2351,True,2299889
+2018,Massachusetts,MA,Elizabeth A. Warren,Democrat,1633371,False,2707090
+2018,Massachusetts,MA,Geoff Diehl,Republican,979210,False,2707090
+2018,Massachusetts,MA,Shiva Ayyadurai,unenrolled,91710,False,2707090
+2018,Massachusetts,MA,Others,No Party,2799,False,2707090
+2018,Michigan,MI,John James,Republican,1938818,False,4237271
+2018,Michigan,MI,Debbie Stabenow,Democrat,2214478,False,4237271
+2018,Michigan,MI,George E. Huffman III,us taxpayers,27251,False,4237271
+2018,Michigan,MI,Marcia Squier,green,40204,False,4237271
+2018,Michigan,MI,John Howard Wilhelm,natural law,16502,False,4237271
+2018,Michigan,MI,Write in,No Party,18,True,4237271
+2018,Minnesota,MN,Jim Newberger,Republican,940437,False,5184235
+2018,Minnesota,MN,Amy Klobuchar,democratic-farmer-labor,1566174,False,5184235
+2018,Minnesota,MN,Dennis Schuller,legal marijuana now,66236,False,5184235
+2018,Minnesota,MN,Paula M Overby,minnesota green,23101,False,5184235
+2018,Minnesota,MN,Write in,No Party,931,True,5184235
+2018,Minnesota,MN,Karin Housley,Republican,1095777,False,5184235
+2018,Minnesota,MN,Tina Smith,democratic-farmer-labor,1370540,False,5184235
+2018,Minnesota,MN,Sarah Wellington,legal marijuana now,95614,False,5184235
+2018,Minnesota,MN,Jerry Trooien,unaffiliated,24324,False,5184235
+2018,Minnesota,MN,Write in,No Party,1101,True,5184235
+2018,Mississippi,MS,David Baria,Democrat,369567,False,1843803
+2018,Mississippi,MS,Roger F. Wicker,Republican,547619,False,1843803
+2018,Mississippi,MS,Danny Bedwell,Libertarian,12981,False,1843803
+2018,Mississippi,MS,Shawn O'Hara,reform,6048,False,1843803
+2018,Mississippi,MS,Cindy Hyde-Smith,Republican,486769,False,1843803
+2018,Mississippi,MS,Mike Espy,Democrat,420819,False,1843803
+2018,Missouri,MO,Josh Hawley,Republican,1254927,False,2442289
+2018,Missouri,MO,Claire McCaskill,Democrat,1112935,False,2442289
+2018,Missouri,MO,Japheth Campbell,Libertarian,27316,False,2442289
+2018,Missouri,MO,Jo Crain,green,12706,False,2442289
+2018,Missouri,MO,Craig O'Dear,independent,34398,False,2442289
+2018,Missouri,MO,Write in,No Party,7,True,2442289
+2018,Montana,MT,Jon Tester,Democrat,253876,False,504384
+2018,Montana,MT,Rick Breckenridge,Libertarian,14545,False,504384
+2018,Montana,MT,Matt Rosendale,Republican,235963,False,504384
+2018,Nebraska,NE,Deb Fischer,Republican,403151,False,698883
+2018,Nebraska,NE,Jane Raybould,Democrat,269917,False,698883
+2018,Nebraska,NE,Jim Schultz,Libertarian,25349,False,698883
+2018,Nebraska,NE,Write in,No Party,466,True,698883
+2018,Nevada,NV,Jacky Rosen,Democrat,490071,False,972132
+2018,Nevada,NV,Dean Heller,Republican,441202,False,972132
+2018,Nevada,NV,None of these Candidates,No Party,15303,False,972132
+2018,Nevada,NV,Barry Michaels,independent,9269,False,972132
+2018,Nevada,NV,Tim Hagan,Libertarian,9196,False,972132
+2018,Nevada,NV,Kamau A. Bakari,independent american,7091,False,972132
+2018,New Jersey,NJ,Robert Menendez,Democrat,1711654,False,3169310
+2018,New Jersey,NJ,Bob Hugin,Republican,1357355,False,3169310
+2018,New Jersey,NJ,Madelyn R. Hoffman,green,25150,False,3169310
+2018,New Jersey,NJ,Murray Sabrin,Libertarian,21212,False,3169310
+2018,New Jersey,NJ,Natalie Lynn Rivera,for the people,19897,False,3169310
+2018,New Jersey,NJ,Tricia Flanagan,new day nj,16101,False,3169310
+2018,New Jersey,NJ,Kevin Kimple,make it simple,9087,False,3169310
+2018,New Jersey,NJ,Hank Schroeder,economic growth,8854,False,3169310
+2018,New Mexico,NM,Martin T Heinrich,Democrat,376998,False,697012
+2018,New Mexico,NM,Gary E Johnson,Libertarian,107201,False,697012
+2018,New Mexico,NM,Mick Rich,Republican,212813,False,697012
+2018,New York,NY,Kirsten E. Gillibrand,Democrat,3755489,False,6055151
+2018,New York,NY,Chele Chiavacci Farley,Republican,1730439,False,6055151
+2018,New York,NY,Chele Chiavacci Farley,conservative,246171,False,6055151
+2018,New York,NY,Kirsten E. Gillibrand,working families,160128,False,6055151
+2018,New York,NY,Kirsten E. Gillibrand,independence,99325,False,6055151
+2018,New York,NY,Kirsten E. Gillibrand,women's equality,41989,False,6055151
+2018,New York,NY,Chele Chiavacci Farley,reform,21610,False,6055151
+2018,North Dakota,ND,Kevin Cramer,Republican,179720,False,326138
+2018,North Dakota,ND,Heidi Heitkamp,democratic-npl,144376,False,326138
+2018,North Dakota,ND,Write in,No Party,2042,True,326138
+2018,Ohio,OH,Sherrod Brown,Democrat,2355923,False,4410898
+2018,Ohio,OH,Write in,No Party,1012,True,4410898
+2018,Ohio,OH,Jim Renacci,Republican,2053963,False,4410898
+2018,Pennsylvania,PA,Robert P Casey Jr,Democrat,2777680,False,4994643
+2018,Pennsylvania,PA,Louis J. Barletta,Republican,2134848,False,4994643
+2018,Pennsylvania,PA,Neal Taylor Gale,green,31208,False,4994643
+2018,Pennsylvania,PA,Dale R Kerns Jr,Libertarian,50907,False,4994643
+2018,Rhode Island,RI,Sheldon Whitehouse,Democrat,231477,False,376738
+2018,Rhode Island,RI,"Robert G. Flanders, Jr.",Republican,144421,False,376738
+2018,Rhode Island,RI,Write in,No Party,840,True,376738
+2018,Tennessee,TN,Marsha Blackburn,Republican,1227483,False,2243740
+2018,Tennessee,TN,Phil Bredesen,Democrat,985450,False,2243740
+2018,Tennessee,TN,Trudy A. Austin,independent,9455,False,2243740
+2018,Tennessee,TN,John Carico,independent,3398,False,2243740
+2018,Tennessee,TN,Dean Hill,independent,8717,False,2243740
+2018,Tennessee,TN,Kevin Lee McCants,independent,1927,False,2243740
+2018,Tennessee,TN,Breton Phillips,independent,2226,False,2243740
+2018,Tennessee,TN,Kris L. Todd,independent,5084,False,2243740
+2018,Texas,TX,Ted Cruz,Republican,4260553,False,8371655
+2018,Texas,TX,Beto O'Rourke,Democrat,4045632,False,8371655
+2018,Texas,TX,Neal M. Dikeman,Libertarian,65470,False,8371655
+2018,Utah,UT,Mitt Romney,Republican,665215,False,1062845
+2018,Utah,UT,Jenny Wilson,Democrat,328541,False,1062845
+2018,Utah,UT,Tim Aalders,constitution,28774,False,1062845
+2018,Utah,UT,Craig R. Bowden,Libertarian,27607,False,1062845
+2018,Utah,UT,Reed C. McCandless,independent american,12708,False,1062845
+2018,Vermont,VT,Folasade Adeluola,independent,1979,False,272624
+2018,Vermont,VT,Russell Beste,independent,2763,False,272624
+2018,Vermont,VT,Bruce Busa,independent,914,False,272624
+2018,Vermont,VT,Edward S. Gilbert Jr,independent,2244,False,272624
+2018,Vermont,VT,Reid Kane,liberty union,1171,False,272624
+2018,Vermont,VT,Brad J. Peacock,independent,3787,False,272624
+2018,Vermont,VT,Bernie Sanders,independent,183529,False,272624
+2018,Vermont,VT,Jon Svitavsky,independent,1280,False,272624
+2018,Vermont,VT,Lawrence Zupan,Republican,74663,False,272624
+2018,Vermont,VT,Write in,No Party,294,True,272624
+2018,Virginia,VA,Corey A. Stewart,Republican,1374313,False,3351373
+2018,Virginia,VA,Timothy M. Kaine,Democrat,1910370,False,3351373
+2018,Virginia,VA,Matt J. Waters,Libertarian,61565,False,3351373
+2018,Virginia,VA,Write in,No Party,5125,True,3351373
+2018,Washington,WA,Maria Cantwell,Democrat,1803364,False,3086168
+2018,Washington,WA,Susan Hutchison,Republican,1282804,False,3086168
+2018,West Virginia,WV,Joe Manchin,Democrat,288808,False,582911
+2018,West Virginia,WV,Patrick Morrisey,Republican,269872,False,582911
+2018,West Virginia,WV,Rusty Hollen,Libertarian,24231,False,582911
+2018,Wisconsin,WI,Tammy Baldwin,Democrat,1472914,False,2657841
+2018,Wisconsin,WI,Leah Vukmir,Republican,1184885,False,2657841
+2018,Wisconsin,WI,Write in,No Party,42,True,2657841
+2018,Wyoming,WY,John Barrasso,Republican,136210,False,203420
+2018,Wyoming,WY,Gary Trauner,Democrat,61227,False,203420
+2018,Wyoming,WY,Joseph Porambo,Libertarian,5658,False,203420
+2018,Wyoming,WY,Write in,No Party,325,True,203420

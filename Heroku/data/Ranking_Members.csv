@@ -1,0 +1,85 @@
+Committee,SubCommittee,R_First_Name,R_Last_Name,RM_Party,State_Abbrv,Ranking_Members,State,R_Party_Name
+Committee,"Agriculture, Nutrition and Forestry",Debbie,Stabenow,D,MI,Debbie Stabenow,Michigan,Democrat
+SubCommittee,"Commodities, Risk Management and Trade",Sherrod,Brown,D,OH,Sherrod Brown,Ohio,Democrat
+SubCommittee,"Conservation, Forestry and Natural Resources",Michael,Bennet,D,CO,Michael Bennet,Colorado,Democrat
+SubCommittee,"Livestock, Marketing and Agriculture Security",Kirsten,Gillibrand,D,NY,Kirsten Gillibrand,New York,Democrat
+SubCommittee,"Nutrition, Agricultural Research and Specialty Crops",Bob,Casey,D,PA,Bob Casey,Pennsylvania,Democrat
+SubCommittee,Rural Development and Energy,Tina,Smith,D,MN,Tina Smith,Minnesota,Democrat
+Committee,Appropriations,Patrick,Leahy,D,VT,Patrick Leahy,Vermont,Democrat
+SubCommittee,"Agriculture, Rural Development, Food and Drug Administration and Related Agencies",Jeff,Merkley,D,OR,Jeff Merkley,Oregon,Democrat
+SubCommittee,"Commerce, Justice, Science and Related Agencies",Jeanne,Shaheen,D,NH,Jeanne Shaheen,New Hampshire,Democrat
+SubCommittee,Defense,Dick,Durbin,D,IL,Dick Durbin,Illinois,Democrat
+SubCommittee,Energy and Water Development,Dianne,Feinstein,D,CA,Dianne Feinstein,California,Democrat
+SubCommittee,Financial Services and General Government,Chris,Coons,D,DE,Chris Coons,Delaware,Democrat
+SubCommittee,Homeland Security,Jon,Tester,D,MT,Jon Tester,Montana,Democrat
+SubCommittee,"Interior, Environment and Related Agencies",Tom,Udall,D,NM,Tom Udall,New Mexico,Democrat
+SubCommittee,"Labor, Health and Human Services, Education and Related Agencies",Patty,Murray,D,WA,Patty Murray,Washington,Democrat
+SubCommittee,Legislative Branch,Chris,Murphy,D,CT,Chris Murphy,Connecticut,Democrat
+SubCommittee,"Military Construction, Veterans Affairs and Related Agencies",Brian,Schatz,D,HI,Brian Schatz,Hawaii,Democrat
+SubCommittee,"State, Foreign Operations and Related Programs",Patrick,Leahy,D,VT,Patrick Leahy,Vermont,Democrat
+SubCommittee,"Transportation, Housing and Urban Development and Related Agencies",Jack,Reed,D,RI,Jack Reed,Rhode Island,Democrat
+Committee,Armed Services,Jack,Reed,D,RI,Jack Reed,Rhode Island,Democrat
+SubCommittee,Airland,Angus,King,I,ME,Angus King,Maine,Democrat
+SubCommittee,Cybersecurity,Joe,Manchin,D,WV,Joe Manchin,West Virginia,Democrat
+SubCommittee,Emerging Threats and Capabilities,Gary,Peters,D,MI,Gary Peters,Michigan,Democrat
+SubCommittee,Personnel,Kirsten,Gillibrand,D,NY,Kirsten Gillibrand,New York,Democrat
+SubCommittee,Readiness and Management Support,Tim,Kaine,D,VA,Tim Kaine,Virginia,Democrat
+SubCommittee,Seapower,Mazie,Hirono,D,HI,Mazie Hirono,Hawaii,Democrat
+SubCommittee,Strategic Forces,Martin,Heinrich,D,NM,Martin Heinrich,New Mexico,Democrat
+Committee,"Banking, Housing and Urban Affairs",Sherrod,Brown,D,OH,Sherrod Brown,Ohio,Democrat
+SubCommittee,Economic Policy,CatherineCortez,Masto,D,NV,CatherineCortez Masto,Nevada,Democrat
+SubCommittee,Financial Institutions and Consumer Protection,Elizabeth,Warren,D,MA,Elizabeth Warren,Massachusetts,Democrat
+SubCommittee,"Housing, Transportation and Community Development",Bob,Menendez,D,NJ,Bob Menendez,New Jersey,Democrat
+SubCommittee,National Security and International Trade and Finance,Mark,Warner,D,VA,Mark Warner,Virginia,Democrat
+SubCommittee,"Securities, Insurance and Investment",ChrisVan,Hollen,D,MD,ChrisVan Hollen,Maryland,Democrat
+Committee,Budget,Bernie,Sanders,I,VT,Bernie Sanders,Vermont,Democrat
+Committee,"Commerce, Science and Transportation",Maria,Cantwell,D,WA,Maria Cantwell,Washington,Democrat
+SubCommittee,Aviation and Space,Kyrsten,Sinema,D,AZ,Kyrsten Sinema,Arizona,Democrat
+SubCommittee,"Communications, Technology, Innovation and the Internet",Brian,Schatz,D,HI,Brian Schatz,Hawaii,Democrat
+SubCommittee,"Manufacturing, Trade and Consumer Protection",Richard,Blumenthal,D,CT,Richard Blumenthal,Connecticut,Democrat
+SubCommittee,"Science, Oceans, Fisheries and Weather",Tammy,Baldwin,D,WI,Tammy Baldwin,Wisconsin,Democrat
+SubCommittee,Security,Ed,Markey,D,MA,Ed Markey,Massachusetts,Democrat
+SubCommittee,Transportation and Safety,Tammy,Duckworth,D,IL,Tammy Duckworth,Illinois,Democrat
+Committee,Energy and Natural Resources,Joe,Manchin,D,WV,Joe Manchin,West Virginia,Democrat
+SubCommittee,Energy,Martin,Heinrich,D,NM,Martin Heinrich,New Mexico,Democrat
+SubCommittee,National Parks,Angus,King,I,ME,Angus King,Maine,Democrat
+SubCommittee,"Public Lands, Forests and Mining",Ron,Wyden,D,OR,Ron Wyden,Oregon,Democrat
+SubCommittee,Water and Power,CatherineCortez,Masto,D,NV,CatherineCortez Masto,Nevada,Democrat
+Committee,Environment and Public Works,Tom,Carper,D,DE,Tom Carper,Delaware,Democrat
+SubCommittee,Clean Air and Nuclear Safety,Sheldon,Whitehouse,D,RI,Sheldon Whitehouse,Rhode Island,Democrat
+SubCommittee,"Fisheries, Water and Wildlife",Tammy,Duckworth,D,IL,Tammy Duckworth,Illinois,Democrat
+SubCommittee,"Superfund, Waste Management and Regulatory Oversight",Cory,Booker,D,NJ,Cory Booker,New Jersey,Democrat
+SubCommittee,Transportation and Infrastructure,Ben,Cardin,D,MD,Ben Cardin,Maryland,Democrat
+Committee,Finance,Ron,Wyden,D,OR,Ron Wyden,Oregon,Democrat
+SubCommittee,"Energy, Natural Resources and Infrastructure",Michael,Bennet,D,CO,Michael Bennet,Colorado,Democrat
+SubCommittee,Fiscal Responsibility and Economic Growth,Maggie,Hassan,D,NH,Maggie Hassan,New Hampshire,Democrat
+SubCommittee,Health Care,Debbie,Stabenow,D,MI,Debbie Stabenow,Michigan,Democrat
+SubCommittee,"International Trade, Customs and Global Competitiveness",Bob,Casey,D,PA,Bob Casey,Pennsylvania,Democrat
+SubCommittee,"Social Security, Pensions and Family Policy",Sherrod,Brown,D,OH,Sherrod Brown,Ohio,Democrat
+SubCommittee,Taxation and IRS Oversight,Mark,Warner,D,VA,Mark Warner,Virginia,Democrat
+Committee,Foreign Relations,Bob,Menendez,D,NJ,Bob Menendez,New Jersey,Democrat
+SubCommittee,Africa and Global Health Policy,Tim,Kaine,D,VA,Tim Kaine,Virginia,Democrat
+SubCommittee,"East Asia, the Pacific and International Cybersecurity Policy",Ed,Markey,D,MA,Ed Markey,Massachusetts,Democrat
+SubCommittee,Europe and Regional Security Cooperation,Jeanne,Shaheen,D,NH,Jeanne Shaheen,New Hampshire,Democrat
+SubCommittee,"Multilateral International Development, Multilateral Institutions and International Economic, Energy and Environmental Policy",Jeff,Merkley,D,OR,Jeff Merkley,Oregon,Democrat
+SubCommittee,"Near East, South Asia, Central Asia and Counterterrorism",Chris,Murphy,D,CT,Chris Murphy,Connecticut,Democrat
+SubCommittee,"State Department and USAID Management, International Operations and Bilateral International Development",Cory,Booker,D,NJ,Cory Booker,New Jersey,Democrat
+SubCommittee,"Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights and Global Women's Issues",Ben,Cardin,D,MD,Ben Cardin,Maryland,Democrat
+Committee,"Health, Education, Labor and Pensions",Patty,Murray,D,WA,Patty Murray,Washington,Democrat
+SubCommittee,Children and Families,Bob,Casey,D,PA,Bob Casey,Pennsylvania,Democrat
+SubCommittee,Employment and Workplace Safety,Tammy,Baldwin,D,WI,Tammy Baldwin,Wisconsin,Democrat
+SubCommittee,Primary Health and Retirement Security,Bernie,Sanders,I,VT,Bernie Sanders,Vermont,Democrat
+Committee,Homeland Security and Governmental Affairs,Gary,Peters,D,MI,Gary Peters,Michigan,Democrat
+SubCommittee,Federal Spending Oversight and Emergency Management,Maggie,Hassan,D,NH,Maggie Hassan,New Hampshire,Democrat
+SubCommittee,Investigations (Permanent),Tom,Carper,D,DE,Tom Carper,Delaware,Democrat
+SubCommittee,Regulatory Affairs and Federal Management,Kyrsten,Sinema,D,AZ,Kyrsten Sinema,Arizona,Democrat
+Committee,Judiciary,Dianne,Feinstein,D,CA,Dianne Feinstein,California,Democrat
+SubCommittee,"Antitrust, Competition Policy and Consumer Rights",Amy,Klobuchar,D,MN,Amy Klobuchar,Minnesota,Democrat
+SubCommittee,Border Security and Immigration,Dick,Durbin,D,IL,Dick Durbin,Illinois,Democrat
+SubCommittee,Constitution,Mazie,Hirono,D,HI,Mazie Hirono,Hawaii,Democrat
+SubCommittee,Crime and Terrorism,Sheldon,Whitehouse,D,RI,Sheldon Whitehouse,Rhode Island,Democrat
+SubCommittee,Intellectual Property,Chris,Coons,D,DE,Chris Coons,Delaware,Democrat
+SubCommittee,"Oversight, Agency Action, Federal Rights and Federal Courts",Richard,Blumenthal,D,CT,Richard Blumenthal,Connecticut,Democrat
+Committee,Rules and Administration,Amy,Klobuchar,D,MN,Amy Klobuchar,Minnesota,Democrat
+Committee,Small Business and Entrepreneurship,Ben,Cardin,D,MD,Ben Cardin,Maryland,Democrat
+Committee,Veterans' Affairs,Jon,Tester,D,MT,Jon Tester,Montana,Democrat

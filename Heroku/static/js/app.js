@@ -14,16 +14,19 @@ var svg = d3.select("#barchart")
 
 
 // Parse the Data
-// function data (){
-//  d3.json("Data/Starter/static/votersinfo").then(data=>{
-// var state = data.votersinfo.state});
+function data (){
+ d3.json("../data/votersinfo.json").then(data=>{
+var state = data.votersinfo.state});
+console.log(data)}
+data()
 // var total_votes = data.votersinfo.totalvotes});
 
-var request = new XMLHttpRequest()// Open a new connection, using the GET request on the URL endpoint
-request.open('GET' "/votersinfo", true)request.onload = function (data) {
-    var state = data.votersinfo.state
-}// Send request
-request.send()
+
+// var request = new XMLHttpRequest()// Open a new connection, using the GET request on the URL endpoint
+// request.open('GET' "/votersinfo", true)request.onload = function (data) {
+//     var state = data.votersinfo.state
+// }// Send request
+// request.send()
 
     // X axis
     // var x = d3.scaleBand()

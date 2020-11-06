@@ -13,12 +13,12 @@ var svg = d3.select("#barchart")
         "translate(" + margin.left + "," + margin.top + ")");
 
 
-// Parse the Data
-function data (){
- d3.json("../data/votersinfo.json").then(data=>{
-var state = data.votersinfo.state});
-console.log(data)}
-data()
+function buildData(votersinfo) {
+    d3.json("/voterinfo").then((data)=>{
+        console.log(data)
+    })
+}
+buildData()
 // var total_votes = data.votersinfo.totalvotes});
 
 

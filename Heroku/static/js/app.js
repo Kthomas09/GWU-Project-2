@@ -1,61 +1,70 @@
-// set the dimensions and margins of the graph
-var margin = { top: 30, right: 30, bottom: 70, left: 60 },
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("#barchart")
-    .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
-
-
-function buildData(votersinfo) {
-    d3.json("/voterinfo").then((data)=>{
-        console.log(data)
-    })
-}
-buildData()
-// var total_votes = data.votersinfo.totalvotes});
-
-
-// var request = new XMLHttpRequest()// Open a new connection, using the GET request on the URL endpoint
-// request.open('GET' "/votersinfo", true)request.onload = function (data) {
-//     var state = data.votersinfo.state
-// }// Send request
-// request.send()
-
-    // X axis
-    // var x = d3.scaleBand()
-//         .range([0, width])
-//         .domain(data.map(function (d) { return d.state; }))
-//         .padding(0.2);
-//     svg.append("g")
-//         .attr("transform", "translate(0," + height + ")")
-//         .call(d3.axisBottom(x))
-//         .selectAll("text")
-//         .attr("transform", "translate(-10,0)rotate(-45)")
-//         .style("text-anchor", "end");
-
-//     // Add Y axis
-//     var y = d3.scaleLinear()
-//         .domain([0, 13000])
-//         .range([height, 0]);
-//     svg.append("g")
-//         .call(d3.axisLeft(y));
-
-//     // Bars
-//     svg.selectAll("mybar")
-//         .data(data)
-//         .enter()
-//         .append("rect")
-//         .attr("x", function (d) { return x(d.state); })
-//         .attr("y", function (d) { return y(d.totalvotes); })
-//         .attr("width", x.bandwidth())
-//         .attr("height", function (d) { return height - y(d.totalvotes); })
-//         .attr("fill", "#69b3a2")
-
+// //Format needed for files
+// d3.json("/static/data/votersinfo.json").then(function (data) {
+//   console.log(data);
 // });
+
+Promise.all([
+    d3.json("static/data/Chair_Members.json"),
+    d3.json("/static/data/votersinfo.json"),]).then(function(files){
+        //testing promise
+        // console.log(files[0]);
+        // console.log(files[1]);
+
+        //getting data from chair_members.json
+
+        // for (const [key, value] of Object.entries(files[0])){
+        //     console.log(`${key}: ${value}`)
+        // }
+
+        var chairNames = files[0].Chair_Names;
+        console.log("chairNames");
+        console.log(chairNames);
+        var chairLastName = files[0].C_Last_Name;
+        console.log("chairLastName");
+        console.log(chairLastName);
+
+        //Getting data from votersinfo.json
+        var candidateVotes = files[1].candidatevotes;
+        console.log("candidateVotes");
+        console.log(candidateVotes);
+        var totalVotes = files[1].totalvotes;
+        console.log("totalVotes");
+        console.log(totalVotes);
+        var stateVotes = files[1].state;
+        console.log("stateVotes")
+        console.log(stateVotes);
+        let varList = [chairNames, chairLastName, candidateVotes, totalVotes, stateVotes];
+
+        var trace1 = {
+            x:['Zebras', 'Lions', 'Pelicans'],
+            y: [90, 40, 60],
+            type: 'bar',
+            name: 'New York Zoo'
+        };
+        
+        var trace2 = {
+            x:['Zebras', 'Lions', 'Pelicans'],
+            y: [10, 80, 45],
+            type: 'bar',
+            name: 'San Francisco Zoo'
+        };
+        
+        var data = [trace1, trace2];
+        
+        var layout = {
+            title: 'Hide the Modebar',
+            showlegend: true
+        };
+        
+        Plotly.newPlot('Bar_Graph', data, layout, {displayModeBar: false});
+
+
+
+    //end of promise function
+    }).catch(function (error) {
+        console.log(error);
+    //end of error catching function
+    });
+
+
+

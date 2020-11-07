@@ -36,23 +36,23 @@ Promise.all([
         let varList = [chairNames, chairLastName, candidateVotes, totalVotes, stateVotes];
 
         var trace1 = {
-            x:['Lindsay Graham', 'Chuck Grassley','Jim Inhofe', 'Richard Shelby'],
+            x:['Lindsay Graham(SC)', 'Chuck Grassley(IA)','Jim Inhofe(OK)', 'Richard Shelby(AL)'],
             y: [11873431,9883101,4646940, 4141799],
             type: 'bar',
-            name: 'Chair Members Contributions'
+            name: 'Chair Members $$'
         };
         
         var trace2 = {
-            x:['Patrick Leahy', 'Jack Reed', 'Ron Wyden','Dione Feinstein'],
-            y: [4940984,4408613,13705548,16092233],
+            x:['Diane Feinstein(CA)', 'Ron Wyden(OR)', 'Jack Reed(RI)', 'Patrick Leahy(VT)'],
+            y: [16092233,4408613,13705548, 4940984,],
             type: 'bar',
-            name: 'Ranking Members Contribution'
+            name: 'Ranking Members $$'
         };
         
         var data = [trace1, trace2];
         
         var layout = {
-            title: 'Chair and Ranking Member Contribution',
+            title: 'Chair and Ranking Member Contributions',
             showlegend: true
         };
         
@@ -77,7 +77,7 @@ Promise.all([
         Plotly.newPlot('myDiv', data);
 
     
-
+//Bubble Chart
 
     var trace1 = {
         x: ['Lindsay Graham', 'Chuck Grassley','Jim Inhofe', 'Richard Shelby'],
@@ -86,25 +86,25 @@ Promise.all([
         mode: 'markers',
         marker: {
           color: ['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
-          size: [67.2941,92.6007,58.8166,133.5104]
+          size: [6.72941,9.26007,5.88166,13.35104]
         }
       };
 
       var trace2 = {
         x: ['Patrick Leahy', 'Jack Reed', 'Ron Wyden','Dione Feinstein'],
-        y: [320416,316898,1952478,11113364],
+        y: [320467, 316898, 1952478, 11113364],
         text: ['A<br>size: 40', 'B<br>size: 60', 'C<br>size: 80', 'D<br>size: 100'],
         mode: 'markers',
         marker: {
           color: ['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
-          size: [19.2243,22.3675,110.5119,601.9422]
+          size: [1.92243,2.23675,11.05119,60.19422]
         }
       };
       
-      var data = [trace1];
+      var data = [trace1, trace2];
       
       var layout = {
-        title: 'Bubble Chart Hover Text',
+        title: 'State total votes VS Candidate Vote',
         showlegend: false,
         height: 600,
         width: 600

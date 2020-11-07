@@ -123,7 +123,7 @@ Promise.all([
       
       var layout = {
         title: 'State total votes VS Candidate Vote',
-        showlegend: true,
+        showlegend: false,
         height: 600,
         width: 600
       };

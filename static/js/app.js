@@ -62,28 +62,32 @@ Promise.all([
             x: [1335104, 926007, 672941, 588166],
             y: [4141799, 9883101, 11873431, 4646940],
             mode: 'markers',
-            type: 'scatter'
+            type: 'scatter',
+            name: 'Chair V/$$',
         };
 
         var trace2 = {
           x: [1335104, 926007, 672941, 588166],
           y: [4141799, 9883101, 11873431, 4646940],
             mode: 'lines',
-            type: 'scatter'
+            type: 'scatter',
+            name: 'Chair V/$$'
         };
 
         var trace3  = {
           x: [192243, 1105119, 6019422, 223675],
           y: [4940984, 13705548, 1602233, 4408613],
           mode: 'markers',
-          type: 'scatter'
+          type: 'scatter',
+          name: 'Ranking V/$$'
       };
 
       var trace4 = {
         x: [192243, 1105119, 6019422, 223675],
         y: [4940984, 13705548, 1602233, 4408613],
           mode: 'lines',
-          type: 'scatter'
+          type: 'scatter',
+          name: 'Ranking V/$$'
       };
 
         var data = [trace1, trace2, trace3, trace4];
@@ -119,7 +123,7 @@ Promise.all([
       
       var layout = {
         title: 'State total votes VS Candidate Vote',
-        showlegend: false,
+        showlegend: true,
         height: 600,
         width: 600
       };

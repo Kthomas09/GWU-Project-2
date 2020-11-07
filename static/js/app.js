@@ -34,7 +34,7 @@ Promise.all([
         console.log("stateVotes")
         console.log(stateVotes);
         let varList = [chairNames, chairLastName, candidateVotes, totalVotes, stateVotes];
-
+//Bar Graph
         var trace1 = {
             x:['Lindsay Graham(SC)', 'Chuck Grassley(IA)','Jim Inhofe(OK)', 'Richard Shelby(AL)'],
             y: [11873431,9883101,4646940, 4141799],
@@ -59,20 +59,34 @@ Promise.all([
         Plotly.newPlot('Bar_Graph', data, layout, {displayModeBar: false});
 //Scatter Chart
         var trace1 = {
-            x: [672941,926007,588166,1335104],
-            y: [11873431,9883101,4646940, 4141799],
+            x: [1335104, 926007, 672941, 588166],
+            y: [4141799, 9883101, 11873431, 4646940],
             mode: 'markers',
             type: 'scatter'
         };
 
         var trace2 = {
-            x: [192243,223675,1105119,6019422],
-            y: [4940984,4408613,13705548,16092233],
+          x: [1335104, 926007, 672941, 588166],
+          y: [4141799, 9883101, 11873431, 4646940],
             mode: 'lines',
             type: 'scatter'
         };
 
-        var data = [trace1, trace2];
+        var trace3  = {
+          x: [192243, 1105119, 6019422, 223675],
+          y: [4940984, 13705548, 1602233, 4408613],
+          mode: 'markers',
+          type: 'scatter'
+      };
+
+      var trace4 = {
+        x: [192243, 1105119, 6019422, 223675],
+        y: [4940984, 13705548, 1602233, 4408613],
+          mode: 'lines',
+          type: 'scatter'
+      };
+
+        var data = [trace1, trace2, trace3, trace4];
 
         Plotly.newPlot('myDiv', data);
 

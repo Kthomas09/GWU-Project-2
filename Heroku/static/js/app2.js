@@ -36,17 +36,17 @@ Promise.all([
         let varList = [chairNames, chairLastName, candidateVotes, totalVotes, stateVotes];
 
         var trace1 = {
-            x:['Debbie Stabenow', 'Tina Smith', 'Jon Tester', 'Tom Udall'],
+            x:['Debbie Stabenow/Aggric. Comm.', 'Tina Smith/Rural Dev', 'Jon Tester/Dep of HS', 'Tom Udall/Enviro and Rel'],
             y: [17570218, 9147179, 20944242, 8687804],
             type: 'bar',
-            name: 'Politician Names and Contributions'
+            name: 'Ranking Members'
         };
         
         var trace2 = {
-            x:['Zebras', 'Lions', 'Pelicans'],
-            y: [10, 80, 45],
+            x:['Pat Roberts/Agric., Nutrit, Forest', 'Joni Ernst/Rural Dev', 'Jerry Moran/Vet Affairs', 'Lisa Murkowski/Int., Enviro.'],
+            y: [7646348,14649046,  6592336,6294040 ],
             type: 'bar',
-            name: 'San Francisco Zoo'
+            name: 'Chair Members'
         };
         
         var data = [trace1, trace2];

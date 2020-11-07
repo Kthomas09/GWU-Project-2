@@ -25,12 +25,6 @@ connection = engine.connect()
 def home():    
     message = "Welcome to my 'Home' page!"   
     return render_template("index.html", message = message)
-    
-# @app.route("/data")
-# def data():
-#     data = pd.read_sql("SELECT * FROM votersinfo WHERE state = 'Alabama' and candidate = 'Write in';", con = connection)
-#     data_dict=data.to_dict(orient="records")
-#     return jsonify(data_dict)
 
 @app.route("/votersinfo")
 def votersinfo():
@@ -68,17 +62,7 @@ def contributions_2016():
 def contributions_2018():
     contributions_2018= pd.read_sql("SELECT * FROM contributions_2018", con = connection)
     contributions_2018_dict=contributions_2018.to_dict(orient="records")
-    return jsonify(contributions_2018_dict) 
-   
-
-# @app.route("/about")
-# def about():
-#     print("Server received request for 'About' page...")
-#     message = "Welcome to my 'About' page!"
-#     data = pd.read_sql("SELECT * FROM votersinfo WHERE state = Alabama and candidate = 'Write in';" con = connection)
-
-#     return render_template("index.html", message = message, data = data.to_html())
-
+    return jsonify(contributions_2018_dict)
 
 if __name__ == "__main__":
     app.run(debug=True)

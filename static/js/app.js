@@ -36,50 +36,43 @@ Promise.all([
         let varList = [chairNames, chairLastName, candidateVotes, totalVotes, stateVotes];
 
         var trace1 = {
-            x:['Debbie Stabenow', 'Tina Smith', 'Jon Tester', 'Tom Udall'],
-            y: [17570218, 9147179, 20944242, 8687804],
+            x:['Lindsay Graham', 'Chuck Grassley','Jim Inhofe', 'Richard Shelby'],
+            y: [11873431,9883101,4646940, 4141799],
             type: 'bar',
-            name: 'Politician Names and Contributions'
+            name: 'Chair Members Contributions'
         };
         
         var trace2 = {
-            x:['Zebras', 'Lions', 'Pelicans'],
-            y: [10, 80, 45],
+            x:['Patrick Leahy', 'Jack Reed', 'Ron Wyden','Dione Feinstein'],
+            y: [4940984,4408613,13705548,16092233],
             type: 'bar',
-            name: 'San Francisco Zoo'
+            name: 'Ranking Members Contribution'
         };
         
         var data = [trace1, trace2];
         
         var layout = {
-            title: 'Hide the Modebar',
+            title: 'Chair and Ranking Member Contribution',
             showlegend: true
         };
         
         Plotly.newPlot('Bar_Graph', data, layout, {displayModeBar: false});
 
         var trace1 = {
-            x: [1, 2, 3, 4],
-            y: [10, 15, 13, 17],
+            x: [672941,926007,588166,1335104],
+            y: [11873431,9883101,4646940, 4141799],
             mode: 'markers',
             type: 'scatter'
         };
 
         var trace2 = {
-            x: [2, 3, 4, 5],
-            y: [16, 5, 11, 9],
+            x: [192243,223675,1105119,6019422],
+            y: [4940984,4408613,13705548,16092233],
             mode: 'lines',
             type: 'scatter'
         };
 
-        var trace3 = {
-            x: [1, 2, 3, 4],
-            y: [12, 9, 15, 12],
-            mode: 'lines+markers',
-            type: 'scatter'
-        };
-
-        var data = [trace1, trace2, trace3];
+        var data = [trace1, trace2];
 
         Plotly.newPlot('myDiv', data);
 
@@ -87,13 +80,24 @@ Promise.all([
 
 
     var trace1 = {
-        x: ['Alabama', 'Alaska', 'Colorado'],
-        y: [25029181, 4141799, 14766949],
+        x: ['Lindsay Graham', 'Chuck Grassley','Jim Inhofe', 'Richard Shelby'],
+        y: [1240075,1541036,820733,208744],
         text: ['A<br>size: 40', 'B<br>size: 60', 'C<br>size: 80', 'D<br>size: 100'],
         mode: 'markers',
         marker: {
           color: ['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
-          size: [81.8090, 28.2400, 204.1058]
+          size: [67.2941,92.6007,58.8166,133.5104]
+        }
+      };
+
+      var trace2 = {
+        x: ['Patrick Leahy', 'Jack Reed', 'Ron Wyden','Dione Feinstein'],
+        y: [320416,316898,1952478,11113364],
+        text: ['A<br>size: 40', 'B<br>size: 60', 'C<br>size: 80', 'D<br>size: 100'],
+        mode: 'markers',
+        marker: {
+          color: ['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
+          size: [19.2243,22.3675,110.5119,601.9422]
         }
       };
       

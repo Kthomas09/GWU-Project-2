@@ -57,7 +57,7 @@ Promise.all([
         };
         
         Plotly.newPlot('Bar_Graph', data, layout, {displayModeBar: false});
-
+//Scatter Chart
         var trace1 = {
             x: [672941,926007,588166,1335104],
             y: [11873431,9883101,4646940, 4141799],
